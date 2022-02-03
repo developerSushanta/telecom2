@@ -1,0 +1,3348 @@
+html
+{
+	position			: relative;
+	box-sizing			: border-box;
+	width				: 100%;
+	height				: 100%;
+}
+body
+{
+	position			: relative;
+	box-sizing			: border-box;
+	width				: 100%;
+	height				: auto;
+	margin				: 0;
+	padding				: 0;
+	background-color	: #f0eae6;
+	overflow-x			: hidden;
+}
+/*=========================================================
+#### HEADER PART ####
+===========================================================*/
+.topHeader
+{
+	position 			: relative;
+	display 			: block;
+	box-sizing 			: border-box;
+	float 				: left;
+	width 				: 100%;
+	height 				: 40px;
+	z-index 			: 1;
+	background-color 	: #103EA9;
+	padding-right 		: 30px;
+}
+			/*--------------------------------
+			### Contact Part
+			----------------------------------*/
+.topHeader .contact
+{
+	position 			: relative;
+	display 			: block;
+	box-sizing 			: border-box;
+	float 				: left;
+	width 				: 25%;
+	height 				: 40px;
+	margin-top 			: 10px;
+}
+	.topHeader .contact i
+	{
+		color 				: #fff;
+		margin-left 		: 30px;
+	}
+	.topHeader .contact span
+	{
+		font-size 			: 1.0rem;
+		color 				: #ddd;
+		font-family 		: "Roboto";
+	}
+			/*--------------------------------
+			### Marquee Part
+			----------------------------------*/
+			.topHeader .marq
+			{
+				position 			: relative;
+				display 			: block;
+				box-sizing 			: border-box;
+				float 				: left;
+				width 				: 50%;
+				height 				: 40px;
+				margin-left 		: 60px;
+				border 				: 1px solid #fff;
+			}
+			.topHeader .marq marquee
+			{
+				color 				: yellow;
+				font-family 		: "Roboto";
+				font-size 			: 1.2rem;
+				margin-top 			: 7px;
+			}
+			/*--------------------------------
+			### Icon Part
+			----------------------------------*/
+.topHeader .icon
+{
+	position 			: relative;
+	display 			: block;
+	box-sizing 			: border-box;
+	float 				: right;
+	width 				: 20%;
+	height 				: 40px;
+}
+	.topHeader .icon .fy 
+	{
+		position 			: relative;
+		display 			: block;
+		float 				: right;
+		width 				: 13px;
+		height 				: 13px;
+		margin-left 		: 15px;
+		cursor 				: pointer;
+		margin-top 			: 3px ;
+	}
+		.topHeader .icon .fy:hover
+		{
+			transform 			: scale(1.1);
+		}
+			.topHeader .icon .fy-facebook
+			{
+				font-size 			: 13px;
+				color 				: #fff;
+				text-align 			: center;
+				padding 			: 10px;
+				border-radius 		: 50%;
+				background-color 	: #4267B2;
+			}
+			.topHeader .icon .fy-twitter
+			{
+				font-size 			: 13px;
+				color 				: #fff;
+				text-align 			: center;
+				padding 			: 10px;
+				border-radius 		: 50%;
+				background-color 	: #1DA1F2;
+			}
+			.topHeader .icon .fy-youtube
+			{
+				font-size 			: 13px;
+				color 				: #fff;
+				text-align 			: center;
+				padding 			: 10px;
+				border-radius 		: 50%;
+				background-color 	: #FF0000;
+			}
+			.topHeader .icon .fy-instagram
+			{
+				font-size 			: 13px;
+				color 				: #fff;
+				text-align 			: center;
+				padding 			: 10px;
+				border-radius 		: 50%;
+				background-image 	: linear-gradient(45deg, #fbad50, #cd486b, #4c68d7);
+			}
+
+			/*--------------------------------
+			### Main HEADER Part
+			----------------------------------*/
+.header-wrapper
+{
+	position 			: relative;
+	display 			: block;
+	box-sizing 			: border-box;
+	float 				: left;
+	width 				: 100%;
+	height 				: 180px;
+	z-index 			: 1;
+	background-color 	: rgba(0,0,0,.1);
+}
+	.header-wrapper .header
+	{
+		position 			: relative;
+		display 			: block;
+		box-sizing 			: border-box;
+		float 				: left;
+		width 				: 100%;
+		height 				: 150px;
+	}
+		.header-wrapper .header .logo
+		{
+			position 			: relative;
+			display 			: block;
+			box-sizing 			: border-box;
+			float 				: left;
+			width 				: 10%;
+			height 				: 100px;
+			margin-left 		: 25%;
+			margin-top 			: 25px;
+		}
+			.header-wrapper .header .logo img
+			{
+				width 				: 100%;
+				height 				: 100%;
+			}
+		.header-wrapper .header .name
+		{
+			position 			: relative;
+			display 			: block;
+			box-sizing 			: border-box;
+			float 				: left;
+			width 				: 45%;
+			height 				: 100px;
+			margin-left 		: 30px;
+		}
+			.header-wrapper .header .name h1
+			{
+				font-family 		: "Colonna MT";
+				color 				: #281184;
+				font-size 	 		: 4.0rem;
+				margin-top 			: 35px;
+			}
+			.header-wrapper .header .name h3
+			{
+				font-family 		: "Colonna MT";
+				color 				: #F68828;
+				font-size 	 		: 1.5rem;
+				margin-top 			: -60px;
+				margin-left 		: 30px;
+				font-weight  		: 700;
+			}
+			/*---------------------------------------
+			#### Menu Part
+			-----------------------------------------*/
+.menu-wrapper
+{
+	position 			: absolute;
+	display 			: block;
+	box-sizing 			: border-box;
+	float 				: right;
+	width 				: 100%;
+	height 				: 40px;
+	top 				: 195px;
+	z-index 			: 1;
+}
+	.menu-wrapper .menu
+	{
+		position 			: relative;
+		display 			: block;
+		box-sizing 			: border-box;
+		width 				: 680px;
+		height 				: 100%;
+		margin 				: 0 auto;
+		background-color 	: #4A85C8;
+		border-radius 		: 3px;
+	}
+		.menu-wrapper .menu ul
+		{
+			margin-top 			: 5px;
+		}
+			.menu-wrapper .menu ul li
+			{
+				list-style 			: none;
+				display 			: inline-block;
+				padding 			: 7px 7px;
+			}
+				.menu-wrapper .menu ul li a
+				{
+					font-family 		: "Roboto";
+					font-size 			: 1.3rem;
+					color 				: #fff;
+					text-decoration 	: none;	
+					padding 			: 7px 15px 8px 15px;
+				}
+				.menu-wrapper .menu ul li a:hover
+				{
+					background-color 	: #144984;
+					border-radius 		: 5px;
+				}
+/*=========================================================
+#### BANNER PART ####
+===========================================================*/
+.banner-wrapper
+{
+	position 			: relative;
+	display 			: block;
+	box-sizing 			: border-box;
+	float 				: left;
+	width 				: 100%;
+	height 				: 600px;
+}
+	.banner-wrapper .banner
+	{
+		position 			: relative;
+		display 			: block;
+		box-sizing 			: border-box;
+		float 				: left;
+		width 				: 100%;
+		height 				: 100%;
+	}
+		.banner-wrapper .banner img
+		{
+			position 			: absolute;
+			width 				: 100%;
+			height 				: 100%;
+			display 			: none;
+ 			filter 				: brightness(60%);
+		}
+		.banner-wrapper .banner img.active
+		{
+			display 			: block;
+		}
+	.banner-wrapper .leftArrow,
+	.banner-wrapper .rightArrow
+	{
+		position 			: absolute;
+		display 			: block;
+		box-sizing 			: border-box;
+		width 				: 40px;
+		height 				: 40px;
+		top 				: 300px;
+		border 				: 2px solid #fff;
+	}
+	.banner-wrapper .leftArrow
+	{
+		left 				: 50px;
+		border-radius 		: 50px 0px 0px 50px;
+	}
+	.banner-wrapper .rightArrow
+	{
+		right 				: 50px;
+		border-radius 		: 0px 50px 50px 0px;
+	}
+		.banner-wrapper .leftArrow .arrow,
+		.banner-wrapper .rightArrow .arrow
+		{
+			position 			: absolute;
+			width 				: 15px;
+			height 				: 15px;
+			border 				: 5px solid yellow;
+			border-left 		: none;
+			border-top 			: none;
+			top 				: 23%;
+		}
+		.banner-wrapper .leftArrow .arrow
+		{
+			transform 			: rotate(135deg);
+			margin-left 		: 15px;
+		}
+		.banner-wrapper .rightArrow .arrow
+		{
+			transform 			: rotate(-45deg);
+			margin-left 		: 2px;
+		}
+			.banner-wrapper .leftArrow:hover,
+			.banner-wrapper .rightArrow:hover
+			{
+				background-color 	: #4A85C8;
+				cursor 				: pointer;
+			}
+	.banner-wrapper .text
+	{
+		position 			: absolute;
+		display 			: block;
+		box-sizing 			: border-box;
+		float 				: left;
+		width 				: 100%;
+		height 				: 150px;
+		top 				: 100px;
+	}
+		.banner-wrapper .text .textTop
+		{
+			position 			: relative;
+			display 			: block;
+			box-sizing 			: border-box;
+			float 				: left;
+			width 				: 100%;
+			height 				: 150px;
+		}
+			.banner-wrapper .text .textTop h1
+			{
+				font-family 		: "Ramabhadra";
+				font-size 			: 7.0rem;
+				font-weight 		: 900;
+				color 				: #fff;
+				margin-right 		: 20px;
+				text-align 			: center;
+				text-shadow 		: 10px 10px 10px rgba(0,0,0,0.7);
+				margin-top 			: -50px;
+			}
+		.banner-wrapper .text .textBottom
+		{
+			position 			: relative;
+			display 			: block;
+			box-sizing 			: border-box;
+			width 				: 80%;
+			height 				: 150px;
+			margin 				: 0 auto;
+		}
+			.banner-wrapper .text .textBottom h2
+			{
+				font-family 		: "Roboto";
+				font-size 			: 2.2rem;
+				font-weight 		: 700;
+				color 				: #fff;
+				text-align 			: center;
+				padding 			: 0px 40px 0px 40px;
+				text-shadow 		: 3px 7px 7px rgba(0,0,0,0.5); 
+			}
+			.banner-wrapper .text .textBottom h3
+			{
+				font-family 		: "Roboto";
+				font-size 			: 1.1rem;
+				font-weight 		: 500;
+				color 				: #fff;
+				text-align 			: center;
+				text-transform 		: uppercase;
+				padding 			: 0px 40px 0px 40px;
+				text-shadow 		: 3px 7px 7px rgba(0,0,0,0.5);
+			}
+/*=========================================================
+#### CARD MODEL PART ####
+===========================================================*/
+.card-wrapper
+{
+	position 			: relative;
+	display 			: block;
+	box-sizing 			: border-box;
+	float 				: left;
+	width 				: 100%;
+	height 				: 200px;
+	margin-top 			: -50px;
+}
+	.card-wrapper .card
+	{
+		position 			: relative;
+		display 			: block;
+		box-sizing 			: border-box;
+		width 				: 90%;
+		height 				: 200px;
+		margin 				: 0 auto;
+		max-width 			: 1440px;
+	}
+		.card-wrapper .card .container
+		{
+			position 			: relative;
+			display 			: block;
+			box-sizing 			: border-box;
+			float 				: left;
+			width 				: 20%;
+			height 				: 200px;
+			margin 				: 0 30px;
+			border-radius 		: 35px 0px;
+		}
+			.card-wrapper .card .container .icon
+			{
+				position 			: relative;
+				display 			: block;
+				box-sizing 			: border-box;
+				width 				: 25%;
+				height 				: 60px;
+				margin 				: 0 auto;
+			}
+				.card-wrapper .card .container .icon i
+				{
+					position 		: absolute;
+					color 			: #fff;
+					font-size 		: 35px;
+					padding 		: 14px;
+				}
+			.card-wrapper .card .container .heading
+			{
+				color 				: #fff;
+				font-size 			: 1.6rem;
+				font-family 		: "Oswald";
+				text-align 			: center;
+				font-weight 		: 500;
+			}
+				.card-wrapper .card .container .details p 
+				{
+					color 				: #fff;
+					font-size 			: 1.0rem;
+					font-family 		: "Roboto";
+					font-weight 		: 300;
+					padding 			: 0 20px;
+					text-align 			: justify;
+				}
+/*=========================================================
+#### SERVICE PART ####
+===========================================================*/
+.service-wrapper
+{
+	position 			: relative;
+	display 			: block;
+	box-sizing 			: border-box;
+	float 				: left;
+	width 				: 100%;
+	height 				: 700px;
+	margin-top 			: 50px;
+	background-color  	: #80C6DF;
+}
+	.service-wrapper .service
+	{
+		position 			: relative;
+		display 			: block;
+		box-sizing 			: border-box;
+		width 				: 90%;
+		height 				: 700px;
+		margin 				: 0 auto;
+		max-width 			: 1440px;
+	}
+		.service-wrapper .service .title
+		{
+			text-align 			: center;
+			color 				: #fff;
+			font-size 			: 2.6rem;
+			font-family 		: "Helvetica";
+			text-transform 		: uppercase;
+			font-weight 		: 700;
+			margin-top 			: 20px;
+		}
+		.service-wrapper .service .topContainer
+		{
+			position 			: relative;
+			display 			: block;
+			box-sizing 			: border-box;
+			float 				: left;
+			width 				: 100%;
+			height 				: 250px;
+			margin-top 			: 30px;
+		}
+			.service-wrapper .service .topContainer .content
+			{
+				position 			: relative;
+				display 			: block;
+				box-sizing 			: border-box;
+				float 				: left;
+				width 				: 30%;
+				height 				: 250px;
+				margin-left 		: 30px;
+			}
+				.service-wrapper .service .topContainer .content img
+				{
+					width 				: 100%;
+					height 				: 100%;
+					filter 				: brightness(80%);
+					cursor 				: pointer;
+					transition 			: .6s ease-in-out;
+				}
+				.service-wrapper .service .topContainer .content figure
+				{
+					overflow 			: hidden;
+					width 				: 100%;
+					height 				: 100%;	
+					margin 				: 0;	
+				}
+				.service-wrapper .service .topContainer .content:hover img
+				{
+					transform 			: scale(1.1);
+				}
+			.service-wrapper .service .topContainer .content .text
+			{
+				position 			: absolute;
+				display 			: block;
+				box-sizing 			: border-box;
+				width 				: 100%;
+				height 				: 70px;
+				bottom 				: 0;
+				background-color 	: #4D7DC6;
+			}
+				.service-wrapper .service .topContainer .content .text h3
+				{
+					color 				: #fff;
+					font-size 			: 1.8rem;
+					font-family 		: "Oswald";
+					text-align 			: center;
+					margin-top 			: 20px;
+					font-weight 		: 500;
+				}
+			.service-wrapper .service .topContainer .content .icon
+			{
+				position 			: absolute;
+				display 			: block;
+				box-sizing 			: border-box;
+				width 				: 20%;
+				height 				: 70px;
+				bottom 				: 40px;
+				margin-left 		: 40%;
+				border-radius 		: 50px;
+				background-color 	: #4D7DC6;
+			}
+				.service-wrapper .service .topContainer .content .icon i
+				{
+					position 		: absolute;
+					color 			: #fff;
+					font-size 		: 40px;
+					padding 		: 17px;
+				}
+		.service-wrapper .service .bottomContainer
+		{
+			position 			: relative;
+			display 			: block;
+			box-sizing 			: border-box;
+			float 				: left;
+			width 				: 65%;
+			height 				: 250px;
+			margin-left 		: 16%;
+			margin-top 			: 50px;
+		}
+			.service-wrapper .service .bottomContainer .content
+			{
+				position 			: relative;
+				display 			: block;
+				box-sizing 			: border-box;
+				float 				: left;
+				width 				: 46%;
+				height 				: 250px;
+				margin-left 		: 30px;
+			}
+				.service-wrapper .service .bottomContainer .content img
+				{
+					width 				: 100%;
+					height 				: 100%;
+					filter 				: brightness(80%);
+					cursor 				: pointer;
+					transition 			: .6s ease-in-out;	
+				}
+				.service-wrapper .service .bottomContainer .content figure
+				{
+					overflow 			: hidden;
+					width 				: 100%;
+					height 				: 100%;	
+					margin 				: 0;	
+				}
+				.service-wrapper .service .bottomContainer .content:hover img
+				{
+					transform 			: scale(1.1);
+				}
+			.service-wrapper .service .bottomContainer .content .text
+			{
+				position 			: absolute;
+				display 			: block;
+				box-sizing 			: border-box;
+				width 				: 100%;
+				height 				: 70px;
+				bottom 				: 0;
+				background-color 	: #4D7DC6;
+			}
+				.service-wrapper .service .bottomContainer .content .text h3
+				{
+					color 				: #fff;
+					font-size 			: 1.8rem;
+					font-family 		: "Oswald";
+					text-align 			: center;
+					font-weight 		: 500;
+					margin-top 			: 20px;
+				}
+			.service-wrapper .service .bottomContainer .content .icon
+			{
+				position 			: absolute;
+				display 			: block;
+				box-sizing 			: border-box;
+				width 				: 20%;
+				height 				: 70px;
+				bottom 				: 40px;
+				margin-left 		: 40%;
+				border-radius 		: 50px;
+				background-color 	: #4D7DC6;
+			}
+				.service-wrapper .service .bottomContainer .content .icon i
+				{
+					position 		: absolute;
+					color 			: #fff;
+					font-size 		: 40px;
+					padding 		: 17px;
+				}
+
+/*=========================================================
+#### PRODUCT PART ####
+===========================================================*/
+.product-wrapper
+{
+	position 			: relative;
+	display 			: block;
+	box-sizing 			: border-box;
+	float 				: left;
+	width 				: 100%;
+	height 				: 400px;
+	margin-top 			: 50px;
+}
+	.product-wrapper .product
+	{
+		position 			: relative;
+		display 			: block;
+		box-sizing 			: border-box;
+		width 				: 90%;
+		height 				: 400px;
+		margin 				: 0 auto;
+		max-width 			: 1440px;
+	}
+		.product-wrapper .product .title
+		{
+			text-align 			: center;
+			color 				: #161616;
+			font-size 			: 2.6rem;
+			font-family 		: "Helvetica";
+			text-transform 		: uppercase;
+			font-weight 		: 700;
+			margin-top 			: 20px;
+		}
+		.product-wrapper .product .container
+		{
+			position 			: relative;
+			display 			: block;
+			box-sizing 			: border-box;
+			float 				: left;
+			width 				: 100%;
+			height 				: 300px;
+			margin-top 			: 30px;
+		}
+			.product-wrapper .product .container .content
+			{
+				position 			: relative;
+				display 			: block;
+				box-sizing 			: border-box;
+				float 				: left;
+				width 				: 25%;
+				height 				: 300px;
+				border-right 		: 2px dotted #E3AA24;
+			}
+			.product-wrapper .product .container .content:nth-child(4)
+			{
+				border-right 		: none;
+			}
+				.product-wrapper .product .container .content .icon
+				{
+					position 			: relative;
+					display 			: block;
+					box-sizing 			: border-box;
+					width 				: 20%;
+					height 				: 60px;
+					margin 				: 0 auto;
+					background-color  	: #E3AA24;
+					border-radius 		: 50px;
+				}
+					.product-wrapper .product .container .content .icon i
+					{
+						position 		: absolute;
+						color 			: #fff;
+						font-size 		: 35px;
+						padding 		: 14px;
+					}
+				.product-wrapper .product .container .content .heading
+				{
+					color 				: #444;
+					font-size 			: 1.8rem;
+					font-family 		: "Oswald";
+					text-align 			: center;
+					font-weight 		: 500;
+					margin-top 			: 20px;
+				}
+				.product-wrapper .product .container .content .details p
+				{
+					color 				: #444;
+					font-size 			: 1.1rem;
+					font-family 		: "Roboto";
+					font-weight 		: 500;
+					padding 			: 0 30px;
+					text-align 			: justify;
+				}
+
+/*=========================================================
+#### TEST PART ####
+===========================================================*/
+.test-wrapper
+{
+	position 			: relative;
+	display 			: block;
+	box-sizing 			: border-box;
+	float 				: left;
+	width 				: 100%;
+	height 				: 550px;
+	margin-top 			: 50px;
+	background-color 	: #80C6DF;
+}
+	.test-wrapper .test
+	{
+		position 			: relative;
+		display 			: block;
+		box-sizing 			: border-box;
+		width 				: 90%;
+		height 				: 500px;
+		margin 				: 0 auto;
+		max-width 			: 1440px;
+	}
+		.test-wrapper .test .title
+		{
+			text-align 			: center;
+			color 				: #fff;
+			font-size 			: 2.6rem;
+			font-family 		: "Helvetica";
+			text-transform 		: uppercase;
+			font-weight 		: 700;
+			margin-top 			: 20px;
+		}
+		.test-wrapper .test .carousel
+		{
+			position 			: relative;
+			display 			: block;
+			box-sizing 			: border-box;
+			float 				: left;
+			width 				: 100%;
+			height 				: 400px;
+			margin-top 			: 30px;
+		}
+			.test-wrapper .test .carousel img
+			{
+				position 			: absolute;
+				width 				: 100%;
+				height 				: 400px;
+				display 			: none;
+			}
+			.test-wrapper .test .carousel img.current
+			{
+				display 			: block;
+			}
+			.test-wrapper .test .detail
+			{
+				position 			: absolute;
+				display 			: none;
+				box-sizing 			: border-box;
+				width 				: 45%;
+				height 				: 400px;
+				border-right 		: 100px solid transparent;
+				border-top 			: 400px solid rgba(0,0,0,.8);
+				margin-top 			: 30px;
+			}
+			.test-wrapper .test .detail.now
+			{
+				display 			: block;
+			}
+				.test-wrapper .test .detail h2
+				{
+					color 				: #eee;
+					font-size 			: 2.6rem;
+					font-family 		: "Roboto";
+					font-weight 		: 700;
+					padding 			: 0 30px;
+					margin-top 			: -350px;
+				}
+				.test-wrapper .test .detail p
+				{		
+					color 				: #eee;
+					font-size 			: 1.1rem;
+					font-family 		: "Roboto";
+					font-weight 		: 500;
+					padding 			: 0 30px;
+				}
+
+.test-wrapper .test .leftArrow,
+.test-wrapper .test .rightArrow
+{
+	position 			: absolute;
+	display 			: block;
+	box-sizing 			: border-box;
+	width 				: 40px;
+	height 				: 40px;
+	background-color 	: rgba(0,0,0,0.6);
+	top 				: 430px;
+	right 				: 100px;
+}
+.test-wrapper .test .leftArrow
+{
+	border-radius 		: 00px 0px 0px 00px;
+}
+.test-wrapper .test .rightArrow
+{
+	right 				: 50px;
+	border-radius 		: 0px 00px 00px 0px;
+}
+	.test-wrapper .test .leftArrow .arrow,
+	.test-wrapper .test .rightArrow .arrow
+	{
+		position 			: absolute;
+		width 				: 10px;
+		height 				: 10px;
+		border 				: 4px solid yellow;
+		border-left 		: none;
+		border-top 			: none;
+		top 				: 30%;
+	}
+	.test-wrapper .test .leftArrow .arrow
+	{
+		transform 			: rotate(135deg);
+		margin-left 		: 14px;
+	}
+	.test-wrapper .test .rightArrow .arrow
+	{
+		transform 			: rotate(-45deg);
+		margin-left 		: 10px;
+	}
+		.test-wrapper .test .leftArrow:hover,
+		.test-wrapper .test .rightArrow:hover
+		{
+			background-color 	: #4A85C8;
+			cursor 				: pointer;
+		}
+/*=========================================================
+#### FOOTER PART ####
+===========================================================*/
+.footer-wrapper
+{
+	position 			: relative;
+	display 			: block;
+	box-sizing 			: border-box;
+	float 				: left;
+	width 				: 100%;
+	height 				: 400px;
+	margin-top 			: 100px;
+	background-color  	: #505050;
+}
+	.footer-wrapper .footer
+	{
+		position 			: relative;
+		display 			: block;
+		box-sizing 			: border-box;
+		width 				: 90%;
+		height 				: 400px;
+		margin 				: 0 auto;
+	}
+		.footer-wrapper .footer .container
+		{
+			position 			: relative;
+			display 			: block;
+			box-sizing 			: border-box;
+			float 				: left;
+			width 				: 25%;
+			height 				: 300px;
+			margin-top 			: 50px;
+		}
+			.footer-wrapper .footer .container .links
+			{
+				position 			: relative;
+				display 			: block;
+				box-sizing 			: border-box;
+				float 				: left;
+				width 				: 100%;
+				height 				: 200px;
+			}
+				.footer-wrapper .footer .container .links .fy
+				{
+					color 				: #ddd;
+					font-size 			: 0.7rem;
+				}
+				.footer-wrapper .footer .container .links ul
+				{
+					list-style 			: none;
+				}
+					.footer-wrapper .footer .container .links ul li
+					{
+						margin-left 		: 50px;
+					}
+						.footer-wrapper .footer .container .links ul li a
+						{
+							text-decoration 	: none;
+							color 				: #CCCCCC;
+							font-family 		: "Roboto";
+							font-size 			: 1.0rem;
+						}
+						.footer-wrapper .footer .container .links ul li a:hover
+						{
+							color 				: #fff;
+						}
+			.footer-wrapper .footer .container h1
+			{
+				color 				: #DDDDDD;
+				text-align 			: center;
+				font-size 			: 1.5rem;
+				font-weight 		: 500;
+				font-family 		: "Oswald";
+			}
+			.footer-wrapper .footer .container p
+			{
+				color 				: #CCCCCC;
+				padding 			: 0px 25px;
+				font-size 			: 1.0rem;
+				font-family 		: "Roboto";
+				text-align 			: justify;
+				margin-top 			: 30px;
+			}
+			.footer-wrapper .footer .container .icon .fy
+			{
+				position 			: relative;
+				display 			: block;
+				float 				: left;
+				width 				: 25px;
+				height 				: 25px;
+				margin-left 		: 20px;
+				cursor 				: pointer;
+				margin-top 			: 20px;
+			}
+			.footer-wrapper .footer .container .icon .fy:hover
+			{
+				transform 			: scale(1.1);
+			}
+				.footer-wrapper .footer .container .icon .fy-facebook 
+				{
+					font-size 			: 25px;
+					color 				: #fff;
+					text-align 			: center;
+					padding 			: 10px;
+					border-radius 		: 50%;
+					background-color 	: #4267B2;
+				}
+				.footer-wrapper .footer .container .icon .fy-twitter
+				{
+					font-size 			: 25px;
+					color 				: #fff;
+					text-align 			: center;
+					padding 			: 10px;
+					border-radius 		: 50%;
+					background-color 	: #1DA1F2;
+				}
+				.footer-wrapper .footer .container .icon .fy-youtube
+				{
+					font-size 			: 25px;
+					color 				: #fff;
+					text-align 			: center;
+					padding 			: 10px;
+					border-radius 		: 50%;
+					background-color 	: #FF0000;
+				}
+				.footer-wrapper .footer .container .icon .fy-instagram
+				{
+					font-size 			: 25px;
+					color 				: #fff;
+					text-align 			: center;
+					padding 			: 10px;
+					border-radius 		: 50%;
+					background-image 	: linear-gradient(45deg, #fbad50, #cd486b, #4c68d7);
+				}
+
+.footer-wrapper .upArrow
+{
+	position 			: relative;
+	display 			: block;
+	box-sizing 			: border-box;
+	float 				: left;
+	width 				: 100%;
+	height 				: 60px;
+	bottom 				: 60px;
+}
+	.footer-wrapper .upArrow span
+	{
+		position 			: relative;
+		display 			: block;
+		box-sizing 			: border-box;
+		float 				: right;
+		width 				: 50px;
+		height 				: 50px;
+		background-color 	: #fff;
+		margin-right 		: 110px;
+		border-radius 		: 50px;
+		color 				: blue;
+	}
+		.footer-wrapper .upArrow span i
+		{
+			position 			: relative;
+			display 			: block;
+			font-size 			: 30px;
+			padding 			: 10px;
+		}
+.bottom-wrapper
+{
+	position 			: relative;
+	display 			: block;
+	box-sizing 			: border-box;
+	float 				: left;
+	width 				: 100%;
+	height 				: 55px;
+	background-color  	: #505050;
+}
+	.bottom-wrapper .bottom
+	{
+		position 			: relative;
+		display 			: block;
+		box-sizing 			: border-box;
+		width 				: 90%;
+		height 				: 50px;
+		margin 				: 0 auto;
+		border-top 			: 3px solid #777;
+	}
+		.bottom-wrapper .bottom .left
+		{
+			position 			: relative;
+			display 			: block;
+			box-sizing 			: border-box;
+			float 				: left;
+			width 				: 33%;
+			height 				: 50px;
+		}
+			.bottom-wrapper .bottom .left p
+			{
+				color 				: #fff;
+				text-align 			: left;
+			}
+
+		.bottom-wrapper .bottom .right
+		{
+			position 			: relative;
+			display 			: block;
+			box-sizing 			: border-box;
+			float 				: right;
+			width 				: 33%;
+			height 				: 50px;
+		}
+		.bottom-wrapper .bottom .right p
+		{
+			color 				: #fff;
+			text-align 			: right;
+		}
+			.bottom-wrapper .bottom .right p a
+			{
+				color 					: skyblue;
+				text-decoration 		: none;
+				font-size 				: 15px;
+				font-family 			: "Roboto";
+			}
+			.bottom-wrapper .bottom .right p a:hover
+			{
+				color 					: #fff;
+				transition 				: .5s;
+				background-color 		: transparent;
+			}
+		.bottom-wrapper .bottom .middle
+		{
+			position 			: relative;
+			display 			: block;
+			box-sizing 			: border-box;
+			float 				: left;
+			width 				: 33%;
+			height 				: 50px;
+		}
+
+		/*---------------------------------------------------------
+		###	Visitor Counter
+		-----------------------------------------------------------*/
+.visitor-counter
+{
+	position		 	: relative;
+	box-sizing			: border-box;
+	display				: block;
+	width				: auto;
+	height				: 50px;
+	text-align			: center;
+	line-height			: 50px;
+	margin				: 0 auto;
+	padding				: 0;
+}
+	.visitor-counter ul
+	{
+		display				: inline-block;
+		width				: auto;
+		list-style-type		: none;
+		padding				: 0;
+	}
+		.visitor-counter ul li
+		{
+			display				: block;
+			float				: left;
+			width				: 20px;
+			height				: 25px;
+			margin-right		: 4px;
+			text-align			: center;
+			line-height			: 25px;
+			background-color	: #fff;
+			color				: #0754b1;
+			font-family			: "Oswald",sans-serif;
+			font-size			: 16px;
+			font-weight			: 600;
+		}
+		.visitor-counter ul li:first-of-type
+		{
+			width				: auto;
+			background-color	: transparent;
+			font-family			: "Roboto Condensed",sans-serif;
+			font-size			: 16px;
+			font-weight			: 600;
+			color				: #fff;
+		}
+/*=========================================================================================
+#### ABOUT US PART ####
+===========================================================================================*/
+.bannerImg-wrapper
+{
+	position 			: relative;
+	display 			: block;
+	box-sizing 			: border-box;
+	float 				: left;
+	width 				: 100%;
+	height 				: 500px;
+}
+	.bannerImg-wrapper img
+	{
+		width 				: 100%;
+		height 				: 100%;
+	}
+.bannerImg-wrapper .bannerImg
+{
+	position 			: absolute;
+	display 			: block;
+	box-sizing 			: border-box;
+	top 				: 350px;
+	margin-left 		: 100px;
+	width 				: 70%;
+	height 				: 100px;
+}
+	.bannerImg-wrapper .bannerImg h1
+	{
+		color 				: #fff;
+		font-family 		: "Helvetica";
+		font-size 			: 3.0rem;
+		font-weight 		: 900;
+	}
+
+.about-wrapper
+{
+	position 			: relative;
+	display 			: block;
+	box-sizing 			: border-box;
+	float 				: left;
+	width 				: 100%;
+	height 				: 1200px;
+	margin-top 			: 50px;
+}
+	.about-wrapper .about
+	{
+		position 			: relative;
+		display 			: block;
+		box-sizing 			: border-box;
+		width 				: 90%;
+		height 				: 1200px;
+		margin 				: 0 auto;
+	}
+		.about-wrapper .about .img
+		{
+			position 			: relative;
+			display 			: block;
+			box-sizing 			: border-box;
+			float 				: left;
+			width 				: 300px;
+			height 				: 300px;
+			shape-outside 		: circle();
+		}
+			.about-wrapper .about .img img
+			{
+				width 				: 280px;
+				height 				: 280px;
+				border-radius 		: 50%;
+				
+			}
+		.about-wrapper .about h2
+		{
+			font-size 			: 2.1rem;
+			font-family 		: "Oswald";
+		}
+		.about-wrapper .about p
+		{
+			font-size 			: 1.3rem;
+			font-family 		: "Roboto";
+			text-align 			: justify;
+			line-height 		: 1.5;
+		}
+.about-wrapper .about .ad-image-container
+{
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	float: right;
+	width: 30%;
+	height: 500px;
+}
+	.about-wrapper .about .ad-image-container .image-block img
+	{
+		width: 100%;
+		height: 500px;
+	}
+/*=========================================================================================
+#### ISSUE PART ####
+===========================================================================================*/
+.content-wrapper
+{
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	float: left;
+	width: 100%;
+	height: auto;
+	/*border: 2px solid red;*/
+}
+	.content-wrapper .flex-content
+	{
+		position: relative;
+		display: block;
+		box-sizing: border-box;
+		width: 90%;
+		height: auto;
+		margin: 0 auto;
+		/*border: 2px solid blue;*/
+	}
+		.content-wrapper .flex-content .mainContent
+		{
+			position: relative;
+			display: block;
+			box-sizing: border-box;
+			float: left;
+			width: 100%;
+			height: auto;
+			/*border: 2px solid green;*/
+		}
+		.ad-image-container
+		{
+			position: relative;
+			display: block;
+			box-sizing: border-box;
+			float: left;
+			width: 33%;
+			height: 600px;
+		}
+			.ad-image-container .contentBlock
+						{
+				position: relative;
+				display: block;
+				box-sizing: border-box;
+				float: left;
+				width: 100%;
+				height: 500px;
+				padding: 0px 15px;
+				/*border: 2px solid green;*/
+			}
+				.ad-image-container .contentBlock .issue-image img
+				{
+					width: 100%;
+					height: 100%;
+				}
+.bttnCTA
+{
+	position			: relative;
+	box-sizing			: border-box;
+	display				: inline-block;
+	min-width			: 120px;
+	height				: 40px;
+	margin				: 5px auto 10px;
+	padding				: 0 10px;
+	text-align			: center;
+	line-height			: 40px;
+	border-radius		: 62px;
+	font-family			: 'Oswald',sans-serif;
+	font-size			: 1.1rem;
+	font-weight			: 500;
+	text-transform		: uppercase;
+	text-decoration		: none;
+	background-color	: #222;
+	color				: #fff;
+}
+	.bttnCTA:hover
+	{
+		background-color	: transparent;
+		border				: 2px solid #222;
+		color				: #222;
+		line-height			: 36px;
+		font-weight			: 600;
+	}
+			/*---------------------------------------------------------------------------
+	###	SIDE PANEL : Content Text Header
+	-----------------------------------------------------------------------------*/
+	h2.content-header-title
+	{
+		position			: relative;
+		display				: inline-block;
+		height				: 30px;
+		margin				: 0;
+		margin-bottom		: 10px;
+		padding				: 0;
+		line-height			: 30px;
+		font-family			: "Lato",sans-serif;
+		font-size			: 1.8rem;
+		font-weight			: 600;
+		color				: #42344b;
+		text-shadow			: 1px 1px 2px #0c0c0c;
+		letter-spacing		: 1px;
+	}
+	h2.content-header-title:after
+	{
+		content				: "";
+		position			: absolute;
+		display				: block;
+	}
+	
+	h3.title-sub-title
+	{
+		position			: relative;
+		display				: inline-block;
+		height				: auto;
+		margin				: 10px 0 0;
+		padding				: 0;
+		line-height			: 1;
+		font-family			: "Ubuntu",sans-serif;
+		font-size			: 0.9rem;
+		font-weight			: 700;
+		color				: #241d29;
+	}
+		span.title-description
+	{
+		position			: relative;
+		display				: inline-block;
+		height				: auto;
+		margin				: 10px 0 0;
+		padding				: 0;
+		line-height			: 1.2;
+		font-family			: "Roboto",sans-serif;
+		font-size			: 1.1rem;
+		font-weight			: 500;
+		color				: #0e0c10;
+	}
+		span.title-description a
+		{
+			text-decoration		: none;
+			font-family			: "Ubuntu",sans-serif;
+			font-size			: 1.2rem;
+			font-weight			: 600;
+			color				: #461e1c;
+		}
+		span.title-description a:hover
+		{
+			font-size			: 1.3rem;
+			color				: #6d2873;
+		}
+		h3.title-sub-title-symbol
+		{
+			position			: relative;
+			display				: inline-block;
+			height				: auto;
+			margin				: 0;
+			padding				: 0;
+			line-height			: 1;
+			font-family			: sans-serif;
+			font-size			: 1.1rem;
+			font-weight			: 600;
+			color				: #a80000;
+		}
+
+/*==============================================================================================
+================================================================================================
+================================================================================================
+
+					BackEnd > Filter > Search
+
+================================================================================================
+================================================================================================
+================================================================================================*/
+
+
+/*--------------------------------------------------
+	###	Panel Viewer :: Title Panel
+	----------------------------------------------------*/
+	.content-panel-header
+	{
+		position			: relative;
+		box-sizing			: border-box;
+		display				: block;
+		width				: 100%;
+		height				: auto; 
+		margin				: 5px 0;
+		border-bottom		: 1px solid #787878;
+	}
+	.content-panel-header .module-title
+	{
+		flex				: 1;
+		display				: inline;
+		width				: auto;
+		height				: 36px;
+		margin				: 0px;
+		padding				: 0px;						
+		line-height			: 36px;
+		text-align			: left;						
+		font-family			: "Roboto",sans-serif;
+		font-size			: 1.4rem;
+		font-weight			: 600;
+		text-transform		: uppercase;
+		color				: #222c42;
+		text-shadow			: 1px 1px 2px #151515;
+	}
+	.content-panel .bttnTask
+	{
+		display				: inline-block;
+		min-width			: 50px;
+		height				: 40px;
+		//margin-right		: 5px;
+		padding				: 0 10px;		
+		line-height			: 40px;
+		text-align			: center;						
+		font-family			: "Roboto",sans-serif;
+		font-size			: 1rem;
+		font-weight			: 500;
+		text-transform		: uppercase;
+		letter-spacing		: 1px;		
+		text-shadow			: 1px 1px 2px #4a4a4a;
+		box-shadow			: 1px 1px 2px #666;
+		cursor				: pointer;
+		transition			: 0.2s;
+	}
+	.content-panel .bttnTask:last-of-type
+	{
+		margin-right		: 0;
+	}
+	.bttnActiveTask
+	{
+		background-color	: #14305a !important;
+		color				: #fff;
+	}
+	.bttnInActiveTask
+	{
+		background-color	: #9ab9f1;
+		color				: #000040;
+	}
+	.content-panel .bttnInActiveTask:hover
+	{
+		margin-right		: 7px;
+		background			: linear-gradient(to right, #becbd8 , #bbc8d7 );
+		color				: #2e2e2e;
+		box-shadow			: 1px 2px 8px #666;
+	}
+	
+	
+	.content-panel .bttnSPCCTA
+	{
+		box-sizing			: border-box;
+		width				: 120px;
+		height				: 40px;		
+		display				: flex;
+		flex-wrap			: nowrap;
+		justify-content		: flex-start;
+		margin-right		: 10px;
+		margin-bottom		: 10px;
+		background-image	: linear-gradient(to right, #e5e5e5 , #d1dbde);
+		border				: 1px solid #999;
+		box-shadow			: 1px 1px 2px #333;
+		cursor				: pointer;
+	}
+	.content-panel .bttnSPCCTA:hover
+	{
+		background-image	: linear-gradient(to right, #cacaca , #becdd1);
+		box-shadow			: 1px 2px 4px #111;
+	}
+	.content-panel .bttnSPCCTA div
+	{
+		color				: #222;
+	}
+	.content-panel .bttnSPCCTA:hover div,
+	.content-panel .bttnSPCCTA div:hover
+	{
+		color				: #703838;
+		//text-shadow			: 0px 0px 1px #222;
+	}
+	
+	.content-panel .bttnSPCCTA div:first-of-type
+	{
+		width				: 40px;
+		height				: 40px;
+		text-align			: center;			
+	}
+	.content-panel .bttnSPCCTA div:first-of-type i
+	{
+		position			: relative;
+		display				: block;
+		top					: 50%;
+		transform			: translateY(-50%);
+		font-size			: 24px;
+	}
+	.content-panel .bttnSPCCTA div:last-of-type
+	{
+		flex				: 1;
+		height				: 40px;
+		text-align			: center;
+		margin				: 0;
+		padding				: 0;
+		padding-right		: 5px;
+	}
+	.content-panel .bttnSPCCTA div:last-of-type span
+	{
+		position			: relative;
+		display				: block;
+		top					: 50%;
+		transform			: translateY(-50%);
+		line-height			: 1.2;
+		font-family			: "Oswald",sans-serif;
+		font-size			: 0.8rem;
+		font-weight			: 500;
+	}
+			
+	.content-panel .bttnSPCActive,
+	.content-panel .bttnSPCActive:hover
+	{
+		background-image	: linear-gradient(to right, #3c5977 , #253749);
+		color				: #fff;
+		box-shadow			: 1px 1px 2px #333;
+	}
+	.content-panel .bttnSPCActive div,
+	.content-panel .bttnSPCActive div i,
+	.content-panel .bttnSPCActive div span
+	{
+		color 				: #fff;
+	}
+	
+	/*------------------------------------------------------------------
+	###	CP : Filter Block
+	-------------------------------------------------------------------*/
+	.content-panel .filter-block
+	{
+		position			: relative;
+		float				: left;
+		box-sizing			: border-box;
+		width				: 100%;
+		height				: 42px;						
+		margin				: 0px;
+		margin-top			: 5px;
+		padding				: 0px;
+		display				: flex;
+		flex-wrap			: no-wrap;
+	}
+	/*------------------------------------------------------------------
+	###	CP : Filter	: Sub Block
+	-------------------------------------------------------------------*/
+	.content-panel .filter-block .filter-sub-block
+	{
+		height				: 40px;							
+		padding				: 0;
+		padding-right		: 10px;
+		border-left			: 1px solid #e2e2e2;
+		border-right		: 1px solid #595959;
+	}
+	.content-panel .filter-block .filter-sub-block:first-of-type
+	{
+		padding-right		: 0;
+		border-left			: 0;
+	}
+	.content-panel .filter-block .filter-sub-block:last-of-type
+	{
+		border-right		: 0;
+	}
+	/*------------------------------------------------------------------
+	###	CP : Filter	: Sub Block -> Fixed Width Type
+	--------------------------------------------------------------------*/
+	.content-panel .filter-block .filter-rigid
+	{
+		display				: inline-block;
+	}
+	/*------------------------------------------------------------------
+	###	CP : Filter	: Sub Block -> Flex Type
+	--------------------------------------------------------------------*/
+	.content-panel .filter-block .filter-flex
+	{
+		display				: flex;
+		flex-wrap			: no-wrap;
+	}
+	.content-panel .filter-block .filter-flex-one
+	{
+		flex				: 1;
+		padding				: 0 20px;
+	}
+	
+	.content-panel .filter-block .filter-flex-direction-right
+	{
+		justify-content		: flex-end;
+	}
+	/*------------------------------------------------------------------
+	###	CP : Filter	: Sub Block : Filter Icon Box
+	--------------------------------------------------------------------*/
+	.content-panel .filter-block .filter-icon
+	{
+		position			: relative;
+		float				: left;
+		display				: block;
+		width				: auto;
+		height				: 30px;
+		margin				: 0;
+		padding				: 0 3px;
+		text-align			: center;
+		line-height			: 30px;
+		font-size			: 16px;
+		font-weight			: 500;
+		color				: #9bf8ff;
+	}
+	
+	/*------------------------------------------------------------------
+	###	CP : Filter	: Sub Block : Filter Box -> Element Container
+	--------------------------------------------------------------------*/
+	.content-panel .filter-block .filter-flex .filter-box,
+	.content-panel .filter-block .filter-rigid .filter-box
+	{
+		position			: relative;
+		display				: inline-block;
+		width				: auto;
+		height				: 30px;
+		line-height			: 30px;
+	}
+	.content-panel .filter-block .filter-sub-block .filter-box input[type=text],
+	.content-panel .filter-block .filter-sub-block .filter-box select
+	{
+		display				: inline-block;
+		width				: auto;
+		height				: 30px;
+		margin-left			: 10px;
+		padding				: 0 5px;
+		background-color	: #f0f0f0;
+		font-family			: sans-serif;
+		font-size			: 12px;
+		font-weight			: 600;
+		color				: #222;
+		box-shadow			: inset 1px 1px 1px 0px #c4c4c4;
+		outline				: none;
+	}
+	/*------------------------------------------------------------------
+	###	CP : Filter	: Sub Block : Filter Box -> Filter Selection Button
+	--------------------------------------------------------------------*/
+	.content-panel .filter-block .filter-flex .filter-box .bttnFilter
+	{
+		position			: relative;
+		float				: left;
+		display				: block;
+		width				: auto;
+		min-width			: 40px;
+		height				: 30px;
+		margin-left			: 10px;
+		text-align			: center;
+		padding				: 0 5px;
+		line-height			: 30px;
+		background-image	: linear-gradient(135deg, #c0d6e4 , #77a3c4 );
+		font-family			: sans-serif;
+		font-size			: 0.9rem;
+		font-weight			: 600;
+		color				: #1d3d49;
+		cursor				: pointer;
+		box-shadow			: 1px 1px 3px #444;
+		transition			: 0.2s;
+		top					: 50%;
+		transform			: translateY(-50%);
+		text-shadow			: 0px 1px 0px rgba(255,255,255,.5);
+	}
+	.content-panel .filter-block .filter-flex .filter-box .bttnFilter:hover
+	{
+		background-image	: linear-gradient(135deg, #3a6889 , #305570 );
+		color				: #fff !important;
+		box-shadow			: 1px 2px 5px #444;
+		transform			: translateY(-49%);
+		color				: #303a45;
+		text-shadow			: none;
+	}
+	.content-panel .filter-block .filter-flex .filter-box .bttnFilter i
+	{
+		display				: inline;
+		height				: 30px;
+		line-height			: 30px;
+	}					
+	.filter-block .filterDropdown
+	{
+		position			: relative;
+		display				: block;
+		width				: 200px;
+		box-sizing			: border-box;
+		height				: 40px;
+		background-color	: #a8c5e1;
+		box-shadow			: 1px 1px 2px #333;
+	}
+	.filter-block .filterDropdown span
+	{
+		padding-right			: 40px;
+		padding-left			: 10px;
+		display					: block;
+		width					: auto;
+		height					: 40px;
+		line-height				: 40px;
+		background-image		: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMSAwbDkgMTUuMDk0djUuOTA2bDQgM3YtOC45MDZsOS0xNS4wOTRoLTIyem0xOC40NzkgMmwtMi45ODEgNWgtOC45OTZsLTIuOTgxLTVoMTQuOTU4eiIvPjwvc3ZnPg==");
+		background-repeat		: no-repeat;
+		background-size			: auto 20px;
+		background-position-x	: 96%;
+		background-position-y	: 10px;
+		font-family				: "Oswald",sans-serif;
+		font-size				: 1.0rem;
+		font-weight				: 400;
+		color					: #222;
+		cursor					: pointer;
+	}
+	.filter-block .filterDropdown ul
+	{
+		position			: absolute;
+		display				: none;
+		top					: 100%;
+		left				: 0;
+		width				: 100%;
+		height				: auto;
+		padding				: 10px 0 0;
+		margin				: 0;
+		background-color	: transparent;
+		list-style-type		: none;				
+		z-index				: 9999;
+		box-shadow			: 1px 1px 3px #555;
+	}
+	.filter-block .filterDropdown ul:before
+	{
+		content				: "";
+		position			: absolute;
+		left				: 25px;
+		top					: 0px;
+		width				: 0;
+		height				: 0;
+		border-top			: 0px solid transparent;
+		border-left			: 10px solid transparent;
+		border-right		: 10px solid transparent;
+		border-bottom		: 10px solid #235183;
+	}
+	.filter-block .filterDropdown ul li
+	{
+		position			: relative;
+		box-sizing			: border-box;
+		float				: left;
+		display				: block;
+		width				: 100%;
+		height				: 40px;
+		margin				: 0;
+		padding				: 0 10px;
+		text-align			: left;
+		line-height			: 40px;
+		background-color	: #235183;
+		font-family			: "Roboto Condensed",sans-serif;
+		font-size			: 1.1rem;
+		font-weight			: 400;
+		color				: #fff;
+		letter-spacing		: 1px;
+		text-transform		: uppercase;
+		border-bottom		: 1px solid #c9e9f5;
+		cursor				: pointer;
+	}
+	.filter-block .filterDropdown ul li:hover
+	{
+		background-color	: #1c394a;
+		font-weight			: 600;
+		padding-left		: 20px;
+	}
+	.filter-block .filterDropdown ul li:last-of-type
+	{
+		border-bottom			: none;
+	}
+	/*------------------------------------------------------------------
+	###	CP : Filter	: Sub Block : Filter Box : Pagination
+	--------------------------------------------------------------------*/
+	.content-panel-header .data-pagination
+	{
+		position			: relative;
+		float				: left;
+		margin				: 0 5px;									
+		width				: 100%;
+		height				: 30px;									
+		text-align			: left;
+		background-color	: transparent;
+		box-sizing			: border-box;
+		top					: 50%;
+		transform			: translateY(-50%);
+	}
+	.content-panel-header .data-pagination .pagination,
+	.content-panel-header .data-pagination .page-show
+	{
+		position			: relative;
+		box-sizing			: border-box;
+		float				: left;
+		display				: inline-block;
+		width				: auto;
+		height				: 30px;
+		margin-right		: 5px;
+	}
+	.content-panel-header .data-pagination .pagination .pageButton
+	{
+		position			: relative;
+		float				: left;
+		display				: inline-block;
+		height				: 30px;
+		margin				: 0px 5px 0px 0px;
+		padding				: 0 10px;
+		box-sizing			: border-box;										
+		background-color	: #486086;
+		border				: 0px;
+		outline				: none;
+		border-radius		: 4px;
+		color				: #fff;										
+		font-family			: "Oswald",sans-serif;
+		font-size			: 14px;
+		font-weight			: 500;
+		text-align			: center;
+		line-height			: 30px;
+		cursor				: pointer;
+	}
+	.content-panel-header .data-pagination .pagination .pageButton:hover
+	{
+		background-color	: #0d2c3c !important;
+		color				: #fff;
+		font-size			: 16px;
+		box-shadow			: 1px 1px 2px #333;
+	}
+	.content-panel-header .data-pagination .pagination .active-page
+	{
+		background-color	: #273449;
+		color				: #fff;
+		font-size			: 16px;
+		cursor				: pointer;
+		text-shadow			: 1px 2px 3px #222;
+	}
+	.content-panel-header .data-pagination .pagination .disabled-page
+	{
+		background-color	: #8f8f8f;
+		color				: #818181;
+		font-size			: 16px;
+		cursor				: default;
+		text-shadow			: 1px 1px 2px #222;
+	}
+	.content-panel-header .data-pagination .pagination .disabled-page:hover
+	{
+		background-color	: #8f8f8f !important;
+		color				: #818181;
+		box-shadow			: none !important;
+	}			
+	#pageNo
+	{
+		position			: relative;
+		float				: left;
+		display				: inline-block;
+		width				: 70px;
+		height				: 30px;
+		margin				: 0px 5px 0px 0px;
+		box-sizing			: border-box;
+		text-align			: center;
+		font-family			: sans-serif;
+		font-size			: 12px;
+		font-weight			: 600;
+		color				: #152c31;
+	}
+	#pageNo option
+	{
+		text-align			: center;
+	}
+	
+	.content-panel-header .data-pagination .page-show
+	{
+		margin-left			: 10px;
+		line-height			: 30px;
+	}
+	.content-panel-header .data-pagination .page-show span
+	{
+		font-family			: sans-serif;
+		font-size			: 12px;
+		font-weight			: 600;
+		color				: #152c31;
+	}
+	
+	.content-panel-header .data-pagination ul
+	{
+		position			: relative;
+		float				: none;
+		display				: inline-block;
+		width				: auto;
+		min-width			: 38px;
+		min-height			: 36px;
+		margin				: 0 auto;
+		list-style			: none;
+	}
+	.content-panel-header .data-pagination ul li.first-last-page,
+	.content-panel-header .data-pagination ul li.prev-next-page,
+	.content-panel-header .data-pagination ul li.page-gen
+	{
+		position			: relative;
+		float				: left;
+		display				: inline-block;
+		height				: 30px;
+		margin				: 3px 0 3px 5px;
+		box-sizing			: border-box;										
+		background-color	: #486086;
+		border-radius		: 4px;
+		color				: #fff;										
+		font-family			: "Oswald",sans-serif;
+		font-size			: 14px;
+		font-weight			: 500;
+		text-align			: center;
+		line-height			: 30px;
+	}
+	.content-panel-header .data-pagination ul li:last-of-type
+	{
+		margin-right		:5px;
+	}
+	.content-panel-header .data-pagination ul li.first-last-page
+	{
+		width				: auto;
+		padding				: 0 10px;
+	}
+	.content-panel-header .data-pagination ul li.prev-next-page,
+	.content-panel-header .data-pagination ul li.page-gen
+	{
+		width				: 30px;
+	}
+	.content-panel-header .data-pagination ul li:hover
+	{
+		background-color	: #0d2c3c !important;
+		color				: #fff;
+		font-size			: 16px;
+		cursor				: pointer;
+		box-shadow			: 1px 1px 2px #333;
+	}
+	.content-panel-header .data-pagination ul li.active-page
+	{
+		background-color	: #273449;
+		color				: #fff;
+		font-size			: 16px;
+		cursor				: pointer;
+		text-shadow			: 1px 2px 3px #222;
+	}
+	.content-panel-header .data-pagination ul li.disabled-page
+	{
+		background-color	: #8f8f8f;
+		color				: #818181;
+		font-size			: 16px;
+		cursor				: default;
+		text-shadow			: 1px 1px 2px #222;
+	}
+	.content-panel-header .data-pagination ul li.disabled-page:hover
+	{
+		background-color	: #8f8f8f !important;
+		color				: #818181;
+		box-shadow			: none !important;
+	}
+	
+	/*------------------------------------------------------------------
+	###	CP : Filter	: Sub Block : Filter Box : Search Box
+	--------------------------------------------------------------------*/
+	.content-panel .module-search-box
+	{
+		box-sizing			: border-box;
+		width				: 260px;
+		height				: 36px;
+		display				: flex;
+		flex-wrap			: nowrap;
+		align-items			: center;
+		border				: 2px solid #555;
+		border-radius		: 6px;
+		box-shadow			: inset 1px 1px 3px #333;
+		overflow			: hidden;
+		margin				: 0 5px;
+	}
+	.content-panel .module-search-box input
+	{
+		width				: 230px;
+		height				: 30px;
+		margin-left			: 5px;
+		outline				: none;
+		background-color	: transparent;
+		border				: none;
+		outline				: none;
+		font-family			: "Roboto",sans-serif;
+		font-size			: 1.2rem;
+	}
+	.content-panel .module-search-box input::-webkit-input-placeholder
+	{
+		color				: #444;
+	}
+	.content-panel .module-search-box input::-ms-input-placeholder
+	{
+		color				: #444;
+	}
+	.content-panel .module-search-box input::placeholder
+	{
+		color				: #444;
+	}
+	.content-panel .module-search-box:focus-within
+	{
+		background-color	: #e4d6d6;
+	}
+	.content-panel .module-search-box button.iconButton
+	{
+		display				: inline-block;
+		width				: 36px;
+		height				: 32px;
+		padding				: 0;
+		line-height			: 32px;
+		//background-image	: linear-gradient(180deg , #5b7a99 ,#3a4f63);
+		background-color	: transparent;
+		font-size			: 22px;
+		color				: #1c394a;
+		border				: none;
+		outline				: none;
+		cursor				: pointer;
+		transition			: 0.2s;
+	}
+	.content-panel .module-search-box button.iconButton:hover
+	{
+		font-size			: 24px;
+		color				: #800000;
+		text-shadow			: 1px 1px 3px #333;
+	}
+	.content-panel .module-search-box button.iconButton .fy
+	{
+		line-height			: 32px;
+	}
+	.content-panel .module-search-box button.textButton
+	{
+		display				: inline-block;
+		width				: auto;
+		height				: 30px;
+		margin-left			: auto;
+		padding				: 0 10px;
+		line-height			: 30px;
+		background-image	: linear-gradient(180deg,#5b7a99,#3a4f63);
+		font-family			: "Ubuntu",sans-serif;
+		font-size			: 13px;
+		font-weight			: 500;
+		color				: #fff;
+		border				: none;
+		outline				: none;
+		border-radius		: 5px;
+		transition			: 0.2s;
+		cursor				: pointer;
+	}
+	.content-panel .module-search-box button.textButton:hover
+	{
+		background-image	: linear-gradient(180deg,#eaeef2,#cfd9e2);
+		color				: #333;
+		line-height			: 23px;
+		font-weight			: 600;
+	}
+	
+	/*------------------------------------------------------------------
+	###	CP : Filter	: Sub Block : Search Status Strip
+	-------------------------------------------------------------------*/
+	#status-strip,
+	#status-strip-section
+	{
+		position			: relative;
+		box-sizing			: border-box;
+		display				: none;
+		float				: left;
+		width				: 99%;
+		height				: auto;
+		margin				: 5px 0 2px;
+		padding				: 10px;
+		text-align			: left;
+		background-color	: #c1c1c1;
+	}
+	#status-strip span,
+	#status-strip-section span
+	{
+		width				: auto;
+		height				: auto;
+		line-height			: 2;
+		font-family			: "Roboto",sans-serif;
+		font-size			: 1.1rem;
+		font-weight			: 600;
+		color				: #800000;
+	}
+	
+	#status-strip button,
+	#status-strip-section button
+	{
+		position			: absolute;
+		box-sizing			: border-box;
+		display				: block;
+		right				: 5px;
+		top					: 50%;
+		transform			: translateY(-50%);
+		width				: 30px;
+		height				: 30px;
+		background-color	: transparent;
+		text-align			: center;
+		line-height			: 30px;
+		font-size			: 20px;
+		color				: #800000;
+		text-shadow			: 1px 1px 1px #333;
+		border				: none;
+		outline				: none;
+		cursor				: pointer;
+	}
+	#status-strip button:hover,
+	#status-strip-section button:hover
+	{
+		font-size			: 26px;
+		color				: #ff2f2f;
+		text-shadow			: 1px 1px 3px #333;
+	}
+	
+	/*------------------------------------------------------------------
+	###	CP : Body
+	-------------------------------------------------------------------*/				
+	.content-panel-body
+	{
+		position			: relative;
+		box-sizing			: border-box;
+		width				: 100%;
+		height				: calc(100% - 100px);
+		margin				: 10px auto 5px;
+		padding-right		: 10px;
+		padding-bottom		: 30px;
+		overflow-x			: hidden;
+		overflow-y			: auto;
+	}
+	.content-panel-body::-webkit-scrollbar
+	{
+		width				: 5px;
+	}
+	
+	/* Track */
+	.content-panel-body::-webkit-scrollbar-track 
+	{
+		background			: #f1f1f1; 
+	}
+	
+	/* Handle */
+	.content-panel-body::-webkit-scrollbar-thumb
+	{
+		background			: #096677;
+		width				: 7px;
+		height				: 20px;
+	}
+	
+	/* Handle on hover */
+	.content-panel-body::-webkit-scrollbar-thumb:hover
+	{
+		background			: #090b0d; 
+	}
+	
+	.gradient-marsh-green
+	{
+		background-image	: linear-gradient(135deg,#446a69,#79aaa9);
+	}
+	.gradient-steen-gray
+	{
+		background-image	: linear-gradient(135deg,#49617a,#5b7a99);
+	}
+	
+/*---------------------------------------------------------------------------------------------------------------------------------*/	
+	/*------------------------------------------------------------------
+		Panel Viewer : Viewer Core Data Container Block
+	-------------------------------------------------------------------*/
+	.data-container
+	{
+		position				: relative;
+		float					: left;
+		width					: 100%;
+		height					: auto;
+		padding					: 5px 0 50px;
+		font-family				: sans-serif,sans;
+		font-size				: 12px;
+	}
+	
+	/*------------------------------------------------------------------
+	Panel Viewer :: Data Container - Normal Table
+	--------------------------------------------------------------------*/
+	.content-panel table.tableNormal
+	{
+		height				: auto;
+		border-collapse		: collapse;
+	}
+	.content-panel table.tableBordered
+	{
+		height				: auto;
+		border				: 1px solid #cecece;
+		border-spacing		: 2px;
+		border-collapse		: separate;
+	}
+		
+	.content-panel table tr
+	{
+		border			: none;
+		border-bottom	: 1px solid #c8c8c8;
+	}
+	.content-panel table th.tableHeaderCell
+	{
+		position				: sticky;
+		top						: 0;
+		height					: 40px;
+		background-color		: #1d2f45;
+		text-align				: center;
+		padding					: 2px 5px 5px;
+		font-family				: "Roboto",sans-serif;
+		font-size				: 12px;
+		font-weight				: 500;
+		letter-spacing			: 1px;
+		color					: #fff;
+		border-right			: 1px solid #3c618e;
+		z-index					: 2000;
+		text-transform			: uppercase;
+	}
+	.content-panel table th.tableHeaderCell:last-of-type
+	{
+		text-align				: center;
+		text-indent				: 0px;
+		border-right			: none;
+	}
+	.content-panel table.tableNormal tr.tableBodyRow:nth-child(even)
+	{
+		background-color	: #d9ebf9;
+	}
+	.content-panel table.tableNormal tr.tableBodyRow:nth-child(odd)
+	{
+		background-color	: #e8e8e8;
+	}
+	.content-panel table.tableNormal tr.tableBodyRow
+	{
+		color				: #1e48b7;
+	}
+	.content-panel table.tableNormal tr.tableBodyRow:hover
+	{
+		background-color	: #3086a3;
+		color				: #fff;
+	}
+	.content-panel table tr.tableFootRow
+	{
+		height				: 30px;
+		background-color	: #84acca;
+		padding				: 0;								
+		color				: #21314b;
+	}
+	.content-panel table td
+	{
+		padding				: 5px;
+		border				: none;
+		max-width			: 40%;
+		vertical-align		: middle;
+		font-family			: "Roboto",sans-serif;
+		font-size			: 0.8rem;
+		font-weight			: 500;				
+	}			
+	.content-panel table.tableNormal td
+	{
+		border				: 1px solid #cfcfcf;		
+	}			
+	.content-panel table.tableBordered td
+	{
+		border				: 1px solid #a4a4a4;			
+	}
+	.content-panel table.tableNormal td.highlight-cell
+	{
+		background-color	: #9f0000;
+		color				: #fff;
+	}			
+	.content-panel table td div.tableImageViewer
+	{
+		display				: inline-block;
+		width				: 30px;
+		height				: 30px;
+		border-radius		: 50%;	
+		overflow			: hidden;
+		clear				: right;
+	}
+	.content-panel table td .tableImageViewer img
+	{
+		display				: block;
+		width				: 100%;
+		height				: auto;
+	}
+	.content-panel table td div.tableContent
+	{
+		display				: inline-block;
+		width				: auto;
+		padding-left		: 10px;
+		top					: 50%;
+		transform			: translateY(-50%);
+	}
+	
+	.content-panel table .highlight
+	{
+		position			: relative;
+		display				: block;
+		box-sizing			: border-box;
+		margin				: 2px auto;
+		padding				: 3px 5px;
+		text-align			: center;
+		font-weight			: 600;
+	}
+	.content-panel table .highlight:hover,
+	.content-panel table tr:hover .highlight
+	{
+		color				: #222;
+	}
+				
+	.content-panel table .icon-text
+	{
+		position			: relative;
+		display				: block;
+		width				: 25px;
+		height				: 25px;
+		margin				: 0 auto;
+		text-align			: center;
+		line-height			: 25px;
+		background-color	: #004080;
+		color				: #fff;
+		font-size			: 18px;
+		font-weight			: 500;
+	}
+	.content-panel table .icon-text i
+	{
+		position			: relative;
+		display				: block;
+		top					: 50%;
+		transform			: translateY(-50%);
+	}
+	.content-panel table td.flag
+	{
+		box-sizing			: border-box;
+		width				: 40px;
+		padding				: 0 !important;
+		text-align			: center;
+		cursor				: pointer;
+	}
+	/*-----------------------------------------------------------
+	####	Icon Button in Flag Section
+	-------------------------------------------------------------*/
+	.content-panel table td.flag div.bttnICO
+	{
+		position			: relative;
+		display				: block;
+		width				: 30px;
+		height				: 30px;
+		background-color	: #828282;
+		margin				: 3px auto;
+		border				: 1px solid #828282;
+		outline				: none;
+		border-radius		: 5px;
+		text-align			: center;
+		line-height			: 28px;
+		box-shadow			: 1px 1px 2px #333;
+		text-shadow			: 1px 1px 1px #2a2a2a;
+		font-size			: 16px;					
+		color				: #ffffff;
+		transition			: 0.2s;
+	}
+	.content-panel table td.flag div.activeFlag
+	{					
+		background-color	: #315073;
+		border				: 1px solid #1d3045;
+		outline				: none;
+		text-shadow			: 1px 1px 1px #2a2a2a;
+		font-size			: 16px;					
+		color				: #fff;
+	}
+	.content-panel table td.flag div.inActiveFlag
+	{					
+		background-color	: #828282;
+		border				: 1px solid #828282;
+		text-shadow			: 1px 1px 1px #2a2a2a;
+		font-size			: 16px;					
+		color				: #fff;
+		cursor				: not-allowed;
+	}
+	.content-panel table td.flag div.activeFlag:hover
+	{
+		background-color	: #f0f0f0;
+		box-shadow			: 2px 2px 5px #333;
+		text-shadow			: 1px 1px 3px #b5b5b5;
+		font-size			: 22px;					
+		color				: #f00;
+	}
+	.content-panel table td.flag div.bttnICO i
+	{
+		position			: relative;
+		display				: block;
+		top					: 50%;
+		transform			: translateY(-50%);
+	}
+	.content-panel table td.flag div.bttnICO a
+	{
+		display				: block;
+		width				: 100%;
+		height				: 100%;
+		cursor				: pointer;
+		color				: #fff;
+		text-decoration		: none;
+	}
+	.content-panel table td.flag div.bttnICO a:hover
+	{
+		color				: #f00;
+	}
+	/*-----------------------------------------------------------
+	####	Action Section in Flag Section
+	-------------------------------------------------------------*/		
+	.content-panel table td.flag div.actionList
+	{
+		position			: relative;
+		box-sizing			: border-box;
+		display				: block;
+		width				: 120px;
+		height				: 25px;
+		margin				: 3px 5px;
+	}
+	.content-panel table td.flag div.actionList button.bttnCTA
+	{
+		float				: left;
+		display				: block;
+		width				: 100%;
+		height				: 25px;
+		margin				: 0;
+		padding				: 0;
+		padding-left		: 10px;
+		padding-right		: 10px;
+		text-align			: left;
+		line-height			: 25px;
+		background-color	: #e86670;
+		font-family			: "Oswald",sans-serif;
+		font-size			: 12px;
+		font-weight			: 500;
+		text-transform		: uppercase;
+		text-shadow			: 1px 1px 3px #333;
+		letter-spacing		: 1px;
+		cursor				: pointer;
+		color				: #fff;
+		text-decoration		: none;
+		border				: none;
+		outline				: none;
+		box-shadow			: 1px 1px 2px #333;
+		transition			: 0.2s;
+	}
+	.content-panel table td.flag div.actionList:hover button.bttnCTA,
+	.content-panel table td.flag div.actionList button.bttnCTA:hover
+	{
+		transform			: translate(-1px,-1px);
+		background-image	: linear-gradient( to right, #df3737 , #7e150a );
+		box-shadow			: 1px 2px 6px #333;
+	}
+	.content-panel table td.flag div.actionList button.bttnCTA i
+	{
+		display				: block;
+		float				: right;
+		height				: 25px;
+		line-height			: 25px;
+	}
+	.content-panel table td.flag div.actionList ul
+	{
+		position			: absolute;
+		display				: none;
+		top					: 100%;
+		left				: 0;
+		width				: 120px;
+		height				: auto;
+		margin				: 0;
+		padding				: 0;
+		list-style-type		: none;
+		border				: 1px solid #555;
+		z-index				: 9999;
+	}
+	.content-panel table td.flag div.actionList:hover ul
+	{
+		display				: block;
+	}
+	.content-panel table td.flag div.actionList ul li
+	{
+		float				: left;
+		width				: 100%;
+		height				: 25px;
+		padding				: 0;
+		padding-left		: 10px;
+		text-align			: left;
+		line-height			: 25px;
+		background-color	: #4d4d4d;
+		font-family			: "Roboto",sans-serif;
+		font-size			: 12px;
+		font-weight			: 500;
+		color				: #fbfbfb;
+		transition			: 0.3s;
+	}
+	.content-panel table td.flag div.actionList ul li:hover
+	{
+		background-color	: #6cc5d7;
+		color				: #222;
+	}					
+
+	.content-panel table td img
+	{
+		display				: block;
+		width				: 96%;
+		max-width			: 75px;
+		height				: auto;
+		margin				: 3px auto;
+	}	
+	.content-panel table td form
+	{
+		width				: 100%;
+		margin				: 0;
+		padding				: 0;
+	}									
+	.content-panel table td form input[type=submit]
+	{
+		width				: auto;
+		height				: 25px;
+		margin				: 3px 5px;
+		line-height			: 25px;
+		text-align			: center;
+		padding				: 0 5px;
+		background-image	: linear-gradient(to right,#a6d6f9,#9ccdcd);
+		font-family			: "Roboto",sans-serif;
+		font-size			: 13px;
+		font-weight			: 600;
+		color				: #1c2c3e;
+		border				: none;
+		outline				: none;
+		letter-spacing		: 1px;
+		transition			: 0.3s;
+	}
+	.content-panel table td form input[type=submit]:hover
+	{
+		background-image	: linear-gradient(to right,#053456,#142929);
+		color				: #fff;
+	}
+	
+	.content-panel table td span.tableText
+	{
+		display				: block;
+		width				: 100%;
+		height				: auto;
+		font-family			: "Roboto",sans-serif;
+		font-size			: 13px;
+		font-weight			: 600;
+	}
+
+/*===========================================================================================
+=============================================================================================
+							BackEnd > Event > Form
+=============================================================================================
+=============================================================================================*/
+/*--------------------------------------------------------------------------------------------------------------
+	###	Side Panel Container
+	----------------------------------------------------------------------------------------------------------------*/
+	.side-modal-container
+	{
+		position			: absolute;
+		box-sizing			: border-box;
+		display				: none;
+		top					: 0;
+		right				: 0;
+		width				: 100%;
+		min-width			: 650px;
+		height				: 100%;		
+		background-color	: rgba(55,55,55,0.5);
+		z-index				: 9900;
+	}
+	.side-modal-container .side-modal-close
+	{
+		position			: absolute;
+		display				: block;
+		top					: 30px;
+		left				: -16px;
+		width				: 30px;
+		height				: 30px;
+		margin				: 0px;
+		padding				: 0px;
+		text-align			: center;
+		line-height			: 30px;					
+		background-color	: #f00;
+		outline				: none;
+		border-radius		: 50% 50%;
+		color				: #fff;					
+		font-size			: 16px;
+		font-weight			: 600;
+		transition			: 0.2s;					
+		cursor				: pointer;
+		box-shadow			: -2px 0 6px #222;
+		z-index				: 2;
+	}
+	.side-modal-container .side-modal-close:hover
+	{
+		background-color	: #4a0000;
+	}
+	.side-modal-container .side-modal
+	{
+		position			: relative;
+		box-sizing			: border-box;
+		float				: right;
+		width				: 90%;
+		min-width			: 600px;
+		height				: 100%;
+		padding-left		: 36px;
+		display				: flex;
+		flex-direction		: column;
+		flex-wrap			: nowrap;
+		justify-content		: flex-start;
+		background-color	: #fff;
+		box-shadow			: -2px 0 6px #222;
+		z-index				: 1;
+	}
+	.side-modal-container .side-modal .side-modal-head
+	{
+		width				: 100%;
+		height				: 50px;
+		margin-top			: 20px;
+	}
+	.side-modal-container .side-modal .side-modal-head h2
+	{
+		width				: 100%;
+		line-height			: 50px;
+		text-align			: left;
+		font-family			: "Oswald",sans-serif;
+		font-size			: 1.5rem;
+		font-weight			: 600;
+		color				: #333;
+		text-transform		: uppercase;
+	}
+	.side-modal-container .side-modal .side-modal-body
+	{
+		flex				: 1;
+		box-sizing			: border-box;
+		width				: 100%;
+		overflow			: scroll;
+		padding-right		: 15px;
+		z-index				: 99999;
+	}
+	.side-modal-container .side-modal .side-modal-body::-webkit-scrollbar
+	{
+		width				: 5px;
+	}
+	
+	/* Track */
+	.side-modal-container .side-modal .side-modal-body::-webkit-scrollbar-track 
+	{
+		background			: #f1f1f1; 
+	}
+	
+	/* Handle */
+	.side-modal-container .side-modal .side-modal-body::-webkit-scrollbar-thumb
+	{
+		background			: #096677;
+		width				: 7px;
+		height				: 20px;
+	}
+	
+	/* Handle on hover */
+	.side-modal-container .side-modal .side-modal-body::-webkit-scrollbar-thumb:hover
+	{
+		background			: #090b0d; 
+	}
+	
+	.side-modal-container .side-modal .side-modal-body .side-modal-block	
+	{
+		position			: relative;
+		box-sizing			: border-box;
+		height				: auto;
+		
+	}
+	
+	.form-gen-text
+	{
+		display				: block;
+		width				: 100%;
+		height				: auto;
+		margin				: 3px 0;
+		padding				: 0px;
+		font-family			: "Roboto-condensed",sans-serif;
+		font-size			: 13px;
+		font-weight			: 600;
+		color				: #592d26;
+	}
+	.form-gen-text a
+	{
+		padding				: 2px;
+		background-color	: #592d26;
+		color				: #fff;
+		cursor				: pointer;
+	}
+
+/*=========================================================================================
+===========================================================================================
+
+===========================================================================================
+=========================================================================================*/
+/*-----------------------------------------------------------
+	###	CP | Body | Data-Container | Form Design
+	-------------------------------------------------------------*/	
+	.form-container
+	{
+		position			: relative;
+		box-sizing			: border-box;
+		margin				: 0;
+		width				: 100%;
+		height				: auto;
+		padding				: 10px 0px;
+	}
+	.form-container form
+	{
+		width				: 100%;
+		max-width			: 750px;
+		display				: block;
+	}
+	.form-container form fieldset
+	{
+		width				: 100%;
+		border				: none;
+		background-color	: transparent;
+	}
+	
+	.form-container .data-label
+	{
+		display				: block;
+		height				: auto;
+		min-height			: 36px;
+		margin				: 0;
+		padding				: 10px;
+		font-family			: "Roboto",sans-serif;
+		font-size			: 13px;
+		font-weight			: 600;
+		border				: 1px solid #787878;
+		background-color	: #dddfd7;
+		color				: #000;
+	}
+	/*------------------------------------------------------------------
+	####	Form Level Error Reporting
+	--------------------------------------------------------------------*/
+	.form-container .error-msg
+	{
+		position			: relative;
+		display				: block;
+		box-sizing			: border-box;
+		width				: 100%;
+		height				: auto;
+		margin				: 5px auto;
+		padding				: 15px 10px;		
+		//background-color	: #ff4646;
+		border-radius		: 6px;		
+		font-family			: "Ubuntu",sans-serif;
+		font-size			: 0.8rem;
+		font-weight			: 500;
+		text-align			: center;
+		line-height			: 1.1;
+		color				: #ffecec;		
+	}
+	.form-container .form-note-indicator
+	{
+		position			: relative;
+		box-sizing			: border-box;
+		display				: block;
+		width				: 100%;
+		height				: auto;
+		margin				: 0 0 20px 0;
+		padding				: 0;
+		padding-left		: 40px;
+		text-align			: left;	
+		line-height			: 1.1;
+		font-family			: "Roboto",sans-serif;
+		font-size			: 1rem;
+		font-weight			: 500;
+		color				: #880000;
+	}
+	.form-container .form-note-indicator:before
+	{
+		content				: "Note:";
+		position			: absolute;
+		top					: 0;
+		left				: 0;
+		width				: 40px;
+		height				: auto;
+		text-align			: left;
+		font-family			: "Oswald",sans-serif;
+		font-size			: 1rem;
+		font-weight			: 600;
+		color				: #f00;
+	}
+	
+	.form-label
+	{
+		position			: relative;
+		box-sizing			: border-box;
+		display				: inline-block;
+		width				: auto;
+		height				: auto;
+		padding				: 0;
+		padding-right		: 25px;
+		text-align			: left;
+		line-height			: 1;				
+		font-family			: "Roboto",sans-serif;
+		font-size			: 13px;
+		font-weight			: 600;
+		text-transform		: uppercase;
+		color				: #093366;
+	}
+	.form-label::after
+	{
+		content				: attr(data-label);
+		position			: absolute;
+		top					: 0;
+		right				: 0;
+		width				: 22px;
+		height				: auto;
+		text-align			: left;
+		font-family			: "Oswald",sans-serif;
+		font-size			: 18px;
+		font-weight			: 600;
+		color				: #f00;
+	}
+		
+	.form-container .form-title
+	{
+		text-align		: left;
+		font-family		: "Oswald",sans-serif;
+		font-size		: 1rem;
+		color			: #950000;
+		letter-spacing	: 1px;
+	}
+	.form-container .sub-text
+	{
+		display			: block;
+		margin-bottom	: 10px;
+		text-align		: left;
+		font-family		: "Roboto",sans-serif;
+		font-size		: 0.8rem;
+		color			: #271616;
+	}
+			
+	/* ----------------------------------------------------
+	*****	Purpose		: Sub-title with icons           
+	------------------------------------------------------- */
+	.form-container .form-sub-title
+	{
+		position			: relative;
+		box-sizing			: border-box;
+		display				: block;
+		width				: 100%;
+		height				: 30px;
+		margin				: 5px 0;
+		padding				: 0;
+		text-align			: left;
+		line-height			: 30px;
+		font-family			: "Roboto Condensed",sans-serif;
+		font-size			: 1.3rem;
+		font-weight			: 600;
+		color				: #0962c4;	
+	}
+	.form-container .form-sub-title i
+	{
+		font-size			: 24px;
+		color				: #cbe2f5;
+		text-shadow			: 1px 1px 1px #323a43;
+	}	
+	
+	.form-container .form-notifier
+	{
+		position			: relative;
+		box-sizing			: border-box;
+		width				: 100%;
+		height				: 20px;
+		margin				: 3px 0 8px;
+		padding				: 0;
+		text-align			: left;
+		line-height			: 20px;				
+		display				: flex;
+		flex-wrap			: nowrap;
+		justify-content		: space-between;
+	}
+	.form-container .form-notifier span.icon-box
+	{
+		display				: inline-box;
+		width				: 20px;
+		height				: 20px;
+		margin				: 0;
+		margin-right		: 5px;
+		padding				: 0;
+		text-align			: center;
+		line-height			: 20px;
+		background-color	: #355575;
+		font-family			: tahoma;
+		font-size			: 14px;
+		font-weight			: 600;
+		color				: #18caef;
+		border-radius		: 50% 50%;
+	}
+	.form-container .form-notifier span.text-box
+	{
+		flex				: 1;
+		height				: 20px;
+		margin				: 0;
+		padding				: 0;
+		text-align			: left;
+		line-height			: 20px;
+		background-color	: transparent;
+		font-family			: tahoma;
+		font-size			: 12px;
+		font-weight			: 600;
+		color				: #323a43;
+	}
+		
+	/*------------------------------------------------------------------
+	####	Form Field Counter Indicator
+	--------------------------------------------------------------------*/
+	.form-container .counter
+	{
+		position			: absolute;
+		bottom				: 2px;
+		right				: 0;
+		display				: inline;
+		width				: 60px;
+		height				: auto;
+		padding				: 0;
+		margin-left			: 3px;
+		text-align			: center;				
+		font-family			: sans-serif;
+		font-size			: 11px;
+		font-weight			: 600;
+		color				: #0b4080;
+	}
+	
+	/*------------------------------------------------------------------
+	####	Form Field Level Error Reporting
+	--------------------------------------------------------------------*/
+	.form-container .error-box
+	{
+		position			: relative;
+		box-sizing			: border-box;
+		display				: block;			
+		width				: 100%;
+		height				: auto;
+		margin				: 5px auto;
+		box-sizing			: border-box;
+		padding-left		: 5px;	
+		text-align			: left;
+		font-size			: 12px;
+		font-weight			: 600;
+		color				: #9b0000;
+	}
+	
+	/*------------------------------------------------------------------
+	####	Form Field Level Field Related Information
+	--------------------------------------------------------------------*/
+	.form-container span.input-info
+	{
+		display				: block;
+		margin-top			: 2px;
+		margin-bottom		: 10px;
+		padding-left		: 5px;
+		text-align			: left;
+		font-family			: "Roboto-condensed",sans-serif;
+		font-size			: 10px;
+		font-weight			: 600;
+		color				: #4b0097;
+	}
+	
+	.form-container input[type=text], 
+	.form-container input[type=password], 
+	.form-container select, 
+	.form-container textarea
+	{
+		box-sizing			: border-box;
+		width				: 100%;
+		margin				: 0px;
+		padding				: 0px;
+		border				: 0;
+		outline				: 0;
+		border				: 1px solid #b2b2b2;
+		border-radius		: 4px;
+		background-color	: white;
+		padding-left		: 5px;
+		font-family			: "Ubuntu",sans-serif !important;
+		font-size			: 13px;
+		font-weight			: 500;
+		color				: #000;
+		transition			: 0.3s;
+		clear				: right;
+	}
+	
+	.form-container input[type=text] , 
+	.form-container input[type=password] , 
+	.form-container select
+	{
+		height				: 36px !important;
+	}
+	
+	.form-container input.inpCalendar
+	{
+		padding-right			: 40px;
+		background-image		: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIC0tPgoKPHN2ZwogICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iCiAgIHhtbG5zOmNjPSJodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9ucyMiCiAgIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIKICAgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiCiAgIHhtbG5zOmlua3NjYXBlPSJodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy9uYW1lc3BhY2VzL2lua3NjYXBlIgogICB3aWR0aD0iNDAwIgogICBoZWlnaHQ9IjQwMCIKICAgaWQ9InN2ZzIiCiAgIHZlcnNpb249IjEuMSIKICAgaW5rc2NhcGU6dmVyc2lvbj0iMC45Mi40ICg1ZGE2ODljMzEzLCAyMDE5LTAxLTE0KSIKICAgc29kaXBvZGk6ZG9jbmFtZT0iY2FsZW5kZXIuc3ZnIgogICBpbmtzY2FwZTpleHBvcnQtZmlsZW5hbWU9IkQ6XFByb2plY3RzXElua3NjYXBlXElua3NjYXBlIFJhd1xmb250aXR5XFByb2Nlc3NlZFxjYWxlbmRlci5zdmcucG5nIgogICBpbmtzY2FwZTpleHBvcnQteGRwaT0iOTYiCiAgIGlua3NjYXBlOmV4cG9ydC15ZHBpPSI5NiI+CiAgPGRlZnMKICAgICBpZD0iZGVmczQiIC8+CiAgPHNvZGlwb2RpOm5hbWVkdmlldwogICAgIGlkPSJiYXNlIgogICAgIHBhZ2Vjb2xvcj0iI2ZmZmZmZiIKICAgICBib3JkZXJjb2xvcj0iIzY2NjY2NiIKICAgICBib3JkZXJvcGFjaXR5PSIxLjAiCiAgICAgaW5rc2NhcGU6cGFnZW9wYWNpdHk9IjAuMCIKICAgICBpbmtzY2FwZTpwYWdlc2hhZG93PSIyIgogICAgIGlua3NjYXBlOnpvb209IjAuOTg5OTQ5NDkiCiAgICAgaW5rc2NhcGU6Y3g9IjIwNy40NjY4OCIKICAgICBpbmtzY2FwZTpjeT0iMjU3LjcyNDYiCiAgICAgaW5rc2NhcGU6ZG9jdW1lbnQtdW5pdHM9InB4IgogICAgIGlua3NjYXBlOmN1cnJlbnQtbGF5ZXI9ImczMDMzIgogICAgIHNob3dncmlkPSJmYWxzZSIKICAgICBzaG93Z3VpZGVzPSJ0cnVlIgogICAgIGlua3NjYXBlOmd1aWRlLWJib3g9InRydWUiCiAgICAgaW5rc2NhcGU6c25hcC10by1ndWlkZXM9ImZhbHNlIgogICAgIGlua3NjYXBlOnNuYXAtZ3JpZHM9ImZhbHNlIgogICAgIGlua3NjYXBlOndpbmRvdy13aWR0aD0iMTkyMCIKICAgICBpbmtzY2FwZTp3aW5kb3ctaGVpZ2h0PSIxMDI4IgogICAgIGlua3NjYXBlOndpbmRvdy14PSItOCIKICAgICBpbmtzY2FwZTp3aW5kb3cteT0iLTgiCiAgICAgaW5rc2NhcGU6d2luZG93LW1heGltaXplZD0iMSI+CiAgICA8aW5rc2NhcGU6Z3JpZAogICAgICAgdHlwZT0ieHlncmlkIgogICAgICAgaWQ9ImdyaWQyOTg1IgogICAgICAgdW5pdHM9Im1tIgogICAgICAgZW1wc3BhY2luZz0iNSIKICAgICAgIHZpc2libGU9InRydWUiCiAgICAgICBlbmFibGVkPSJ0cnVlIgogICAgICAgc25hcHZpc2libGVncmlkbGluZXNvbmx5PSJ0cnVlIiAvPgogICAgPHNvZGlwb2RpOmd1aWRlCiAgICAgICBvcmllbnRhdGlvbj0iMSwwIgogICAgICAgcG9zaXRpb249IjIwLjIwMzA1MSwyNzkuODEyMjYiCiAgICAgICBpZD0iZ3VpZGUyOTg3IgogICAgICAgaW5rc2NhcGU6bG9ja2VkPSJmYWxzZSIgLz4KICAgIDxzb2RpcG9kaTpndWlkZQogICAgICAgb3JpZW50YXRpb249IjEsMCIKICAgICAgIHBvc2l0aW9uPSI0MC4xNzg1NzIsNDIwIgogICAgICAgaWQ9Imd1aWRlMjk4OSIKICAgICAgIGlua3NjYXBlOmxvY2tlZD0iZmFsc2UiIC8+CiAgICA8c29kaXBvZGk6Z3VpZGUKICAgICAgIG9yaWVudGF0aW9uPSIxLDAiCiAgICAgICBwb3NpdGlvbj0iMTQwLjQxMTIsMjEzLjE0MjE5IgogICAgICAgaWQ9Imd1aWRlMjk5MyIKICAgICAgIGlua3NjYXBlOmxvY2tlZD0iZmFsc2UiIC8+CiAgICA8c29kaXBvZGk6Z3VpZGUKICAgICAgIG9yaWVudGF0aW9uPSIxLDAiCiAgICAgICBwb3NpdGlvbj0iNTkuNTk5LDIzOC4zOTYiCiAgICAgICBpZD0iZ3VpZGUyOTk1IgogICAgICAgaW5rc2NhcGU6bG9ja2VkPSJmYWxzZSIgLz4KICAgIDxzb2RpcG9kaTpndWlkZQogICAgICAgb3JpZW50YXRpb249IjEsMCIKICAgICAgIHBvc2l0aW9uPSI3OS44MDIwNTEsMjQ1LjQ2NzA3IgogICAgICAgaWQ9Imd1aWRlMjk5NyIKICAgICAgIGlua3NjYXBlOmxvY2tlZD0iZmFsc2UiIC8+CiAgICA8c29kaXBvZGk6Z3VpZGUKICAgICAgIG9yaWVudGF0aW9uPSIxLDAiCiAgICAgICBwb3NpdGlvbj0iMTAwLjAwNTEsMjM0LjM1NTM5IgogICAgICAgaWQ9Imd1aWRlMjk5OSIKICAgICAgIGlua3NjYXBlOmxvY2tlZD0iZmFsc2UiIC8+CiAgICA8c29kaXBvZGk6Z3VpZGUKICAgICAgIG9yaWVudGF0aW9uPSIxLDAiCiAgICAgICBwb3NpdGlvbj0iMTIwLjIwODE1LDIyMi4yMzM1NiIKICAgICAgIGlkPSJndWlkZTMwMDEiCiAgICAgICBpbmtzY2FwZTpsb2NrZWQ9ImZhbHNlIiAvPgogICAgPHNvZGlwb2RpOmd1aWRlCiAgICAgICBvcmllbnRhdGlvbj0iMSwwIgogICAgICAgcG9zaXRpb249IjE1OS42MDQxLDIxMS4xMjE4OCIKICAgICAgIGlkPSJndWlkZTMwMDMiCiAgICAgICBpbmtzY2FwZTpsb2NrZWQ9ImZhbHNlIiAvPgogICAgPHNvZGlwb2RpOmd1aWRlCiAgICAgICBvcmllbnRhdGlvbj0iMSwwIgogICAgICAgcG9zaXRpb249IjE3OS44MDcxNSwyMzguMzk2IgogICAgICAgaWQ9Imd1aWRlMzAwNSIKICAgICAgIGlua3NjYXBlOmxvY2tlZD0iZmFsc2UiIC8+CiAgICA8c29kaXBvZGk6Z3VpZGUKICAgICAgIG9yaWVudGF0aW9uPSIxLDAiCiAgICAgICBwb3NpdGlvbj0iMjAwLjAxMDIsMjY4LjcwMDU4IgogICAgICAgaWQ9Imd1aWRlMzAwNyIKICAgICAgIGlua3NjYXBlOmxvY2tlZD0iZmFsc2UiIC8+CiAgICA8c29kaXBvZGk6Z3VpZGUKICAgICAgIG9yaWVudGF0aW9uPSIxLDAiCiAgICAgICBwb3NpdGlvbj0iMjIwLjIxMzI1LDI4Mi44NDI3MSIKICAgICAgIGlkPSJndWlkZTMwMDkiCiAgICAgICBpbmtzY2FwZTpsb2NrZWQ9ImZhbHNlIiAvPgogICAgPHNvZGlwb2RpOmd1aWRlCiAgICAgICBvcmllbnRhdGlvbj0iMSwwIgogICAgICAgcG9zaXRpb249IjI0MC40MTYzMSwyMjkuMzA0NjMiCiAgICAgICBpZD0iZ3VpZGUzMDExIgogICAgICAgaW5rc2NhcGU6bG9ja2VkPSJmYWxzZSIgLz4KICAgIDxzb2RpcG9kaTpndWlkZQogICAgICAgb3JpZW50YXRpb249IjEsMCIKICAgICAgIHBvc2l0aW9uPSIyNTkuNjA5MiwyMjEuMjIzNDEiCiAgICAgICBpZD0iZ3VpZGUzMDEzIgogICAgICAgaW5rc2NhcGU6bG9ja2VkPSJmYWxzZSIgLz4KICAgIDxzb2RpcG9kaTpndWlkZQogICAgICAgb3JpZW50YXRpb249IjEsMCIKICAgICAgIHBvc2l0aW9uPSIyNzkuODEyMjYsMTkyLjkzOTE0IgogICAgICAgaWQ9Imd1aWRlMzAxNSIKICAgICAgIGlua3NjYXBlOmxvY2tlZD0iZmFsc2UiIC8+CiAgICA8c29kaXBvZGk6Z3VpZGUKICAgICAgIG9yaWVudGF0aW9uPSIxLDAiCiAgICAgICBwb3NpdGlvbj0iMzAwLjAxNTMxLDIwNy4wODEyNyIKICAgICAgIGlkPSJndWlkZTMwMTciCiAgICAgICBpbmtzY2FwZTpsb2NrZWQ9ImZhbHNlIiAvPgogICAgPHNvZGlwb2RpOmd1aWRlCiAgICAgICBvcmllbnRhdGlvbj0iMSwwIgogICAgICAgcG9zaXRpb249IjMyMC4yMTgzNiwxNzEuNzI1OTMiCiAgICAgICBpZD0iZ3VpZGUzMDE5IgogICAgICAgaW5rc2NhcGU6bG9ja2VkPSJmYWxzZSIgLz4KICAgIDxzb2RpcG9kaTpndWlkZQogICAgICAgb3JpZW50YXRpb249IjEsMCIKICAgICAgIHBvc2l0aW9uPSIzNDAuNDIxNDEsMTU4LjU5Mzk1IgogICAgICAgaWQ9Imd1aWRlMzAyMSIKICAgICAgIGlua3NjYXBlOmxvY2tlZD0iZmFsc2UiIC8+CiAgICA8c29kaXBvZGk6Z3VpZGUKICAgICAgIG9yaWVudGF0aW9uPSIxLDAiCiAgICAgICBwb3NpdGlvbj0iMzU5LjYxNDMxLDEyOS4yOTk1MyIKICAgICAgIGlkPSJndWlkZTMwMjMiCiAgICAgICBpbmtzY2FwZTpsb2NrZWQ9ImZhbHNlIiAvPgogICAgPHNvZGlwb2RpOmd1aWRlCiAgICAgICBvcmllbnRhdGlvbj0iMSwwIgogICAgICAgcG9zaXRpb249IjM3OS44MTczNiwxMjEuMjE4MzEiCiAgICAgICBpZD0iZ3VpZGUzMDI1IgogICAgICAgaW5rc2NhcGU6bG9ja2VkPSJmYWxzZSIgLz4KICAgIDxzb2RpcG9kaTpndWlkZQogICAgICAgb3JpZW50YXRpb249IjAsMSIKICAgICAgIHBvc2l0aW9uPSI0MC40MDYxMDIsMzc5LjgxNzM2IgogICAgICAgaWQ9Imd1aWRlMzAyNyIKICAgICAgIGlua3NjYXBlOmxvY2tlZD0iZmFsc2UiIC8+CiAgICA8c29kaXBvZGk6Z3VpZGUKICAgICAgIG9yaWVudGF0aW9uPSIwLDEiCiAgICAgICBwb3NpdGlvbj0iMzEuMzE0NzI5LDM1OS42MTQzMSIKICAgICAgIGlkPSJndWlkZTMwMjkiCiAgICAgICBpbmtzY2FwZTpsb2NrZWQ9ImZhbHNlIiAvPgogICAgPHNvZGlwb2RpOmd1aWRlCiAgICAgICBvcmllbnRhdGlvbj0iMCwxIgogICAgICAgcG9zaXRpb249IjQyLjQyNjQwNywzNDAuNDIxNDEiCiAgICAgICBpZD0iZ3VpZGUzMDMxIgogICAgICAgaW5rc2NhcGU6bG9ja2VkPSJmYWxzZSIgLz4KICAgIDxzb2RpcG9kaTpndWlkZQogICAgICAgb3JpZW50YXRpb249IjAsMSIKICAgICAgIHBvc2l0aW9uPSItOS4wOTEzNzI5LDMyMC4yMTgzNiIKICAgICAgIGlkPSJndWlkZTMwMzMiCiAgICAgICBpbmtzY2FwZTpsb2NrZWQ9ImZhbHNlIiAvPgogICAgPHNvZGlwb2RpOmd1aWRlCiAgICAgICBvcmllbnRhdGlvbj0iMCwxIgogICAgICAgcG9zaXRpb249IjE5OS4wMDAwNSwzMDAuMDE1MzEiCiAgICAgICBpZD0iZ3VpZGUzMDM1IgogICAgICAgaW5rc2NhcGU6bG9ja2VkPSJmYWxzZSIgLz4KICAgIDxzb2RpcG9kaTpndWlkZQogICAgICAgb3JpZW50YXRpb249IjAsMSIKICAgICAgIHBvc2l0aW9uPSIxNDguNDkyNDIsMjc5LjgxMjI2IgogICAgICAgaWQ9Imd1aWRlMzAzNyIKICAgICAgIGlua3NjYXBlOmxvY2tlZD0iZmFsc2UiIC8+CiAgICA8c29kaXBvZGk6Z3VpZGUKICAgICAgIG9yaWVudGF0aW9uPSIwLDEiCiAgICAgICBwb3NpdGlvbj0iMTExLjExNjc4LDI1OS42MDkyIgogICAgICAgaWQ9Imd1aWRlMzAzOSIKICAgICAgIGlua3NjYXBlOmxvY2tlZD0iZmFsc2UiIC8+CiAgICA8c29kaXBvZGk6Z3VpZGUKICAgICAgIG9yaWVudGF0aW9uPSIwLDEiCiAgICAgICBwb3NpdGlvbj0iMTM5LjQwMTA1LDI0MC40MTYzMSIKICAgICAgIGlkPSJndWlkZTMwNDEiCiAgICAgICBpbmtzY2FwZTpsb2NrZWQ9ImZhbHNlIiAvPgogICAgPHNvZGlwb2RpOmd1aWRlCiAgICAgICBvcmllbnRhdGlvbj0iMCwxIgogICAgICAgcG9zaXRpb249IjkyLjkzNDAzNCwyMjAuMjEzMjUiCiAgICAgICBpZD0iZ3VpZGUzMDQzIgogICAgICAgaW5rc2NhcGU6bG9ja2VkPSJmYWxzZSIgLz4KICAgIDxzb2RpcG9kaTpndWlkZQogICAgICAgb3JpZW50YXRpb249IjAsMSIKICAgICAgIHBvc2l0aW9uPSI2Ny42ODAyMjEsMjAwLjAxMDIiCiAgICAgICBpZD0iZ3VpZGUzMDQ1IgogICAgICAgaW5rc2NhcGU6bG9ja2VkPSJmYWxzZSIgLz4KICAgIDxzb2RpcG9kaTpndWlkZQogICAgICAgb3JpZW50YXRpb249IjAsMSIKICAgICAgIHBvc2l0aW9uPSItMzEuMzE0NzI5LDE1OS42MDQxIgogICAgICAgaWQ9Imd1aWRlMzA0OSIKICAgICAgIGlua3NjYXBlOmxvY2tlZD0iZmFsc2UiIC8+CiAgICA8c29kaXBvZGk6Z3VpZGUKICAgICAgIG9yaWVudGF0aW9uPSIwLDEiCiAgICAgICBwb3NpdGlvbj0iLTYwLjYwOTE1MywxNDAuNDExMiIKICAgICAgIGlkPSJndWlkZTMwNTEiCiAgICAgICBpbmtzY2FwZTpsb2NrZWQ9ImZhbHNlIiAvPgogICAgPHNvZGlwb2RpOmd1aWRlCiAgICAgICBvcmllbnRhdGlvbj0iMCwxIgogICAgICAgcG9zaXRpb249Ii04MS44MjIzNTYsMTIwLjIwODE1IgogICAgICAgaWQ9Imd1aWRlMzA1MyIKICAgICAgIGlua3NjYXBlOmxvY2tlZD0iZmFsc2UiIC8+CiAgICA8c29kaXBvZGk6Z3VpZGUKICAgICAgIG9yaWVudGF0aW9uPSIwLDEiCiAgICAgICBwb3NpdGlvbj0iLTgxLjgyMjM1NiwxMDAuMDA1MSIKICAgICAgIGlkPSJndWlkZTMwNTUiCiAgICAgICBpbmtzY2FwZTpsb2NrZWQ9ImZhbHNlIiAvPgogICAgPHNvZGlwb2RpOmd1aWRlCiAgICAgICBvcmllbnRhdGlvbj0iMCwxIgogICAgICAgcG9zaXRpb249Ii02MC42MDkxNTMsNzkuODAyMDUxIgogICAgICAgaWQ9Imd1aWRlMzA1NyIKICAgICAgIGlua3NjYXBlOmxvY2tlZD0iZmFsc2UiIC8+CiAgICA8c29kaXBvZGk6Z3VpZGUKICAgICAgIG9yaWVudGF0aW9uPSIwLDEiCiAgICAgICBwb3NpdGlvbj0iLTcxLjcyMDgzMSw1OS41OTkiCiAgICAgICBpZD0iZ3VpZGUzMDU5IgogICAgICAgaW5rc2NhcGU6bG9ja2VkPSJmYWxzZSIgLz4KICAgIDxzb2RpcG9kaTpndWlkZQogICAgICAgb3JpZW50YXRpb249IjAsMSIKICAgICAgIHBvc2l0aW9uPSItMTQ3LjQ4MjI3LDQwLjQwNjEwMiIKICAgICAgIGlkPSJndWlkZTMwNjEiCiAgICAgICBpbmtzY2FwZTpsb2NrZWQ9ImZhbHNlIiAvPgogICAgPHNvZGlwb2RpOmd1aWRlCiAgICAgICBvcmllbnRhdGlvbj0iMCwxIgogICAgICAgcG9zaXRpb249Ii0xNzIuNzM2MDksMjAuMjAzMDUxIgogICAgICAgaWQ9Imd1aWRlMzA2MyIKICAgICAgIGlua3NjYXBlOmxvY2tlZD0iZmFsc2UiIC8+CiAgICA8c29kaXBvZGk6Z3VpZGUKICAgICAgIG9yaWVudGF0aW9uPSIwLDEiCiAgICAgICBwb3NpdGlvbj0iMTA1LjcxNDI5LDE4MCIKICAgICAgIGlkPSJndWlkZTMwMjQiCiAgICAgICBpbmtzY2FwZTpsb2NrZWQ9ImZhbHNlIiAvPgogIDwvc29kaXBvZGk6bmFtZWR2aWV3PgogIDxtZXRhZGF0YQogICAgIGlkPSJtZXRhZGF0YTciPgogICAgPHJkZjpSREY+CiAgICAgIDxjYzpXb3JrCiAgICAgICAgIHJkZjphYm91dD0iIj4KICAgICAgICA8ZGM6Zm9ybWF0PmltYWdlL3N2Zyt4bWw8L2RjOmZvcm1hdD4KICAgICAgICA8ZGM6dHlwZQogICAgICAgICAgIHJkZjpyZXNvdXJjZT0iaHR0cDovL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1hZ2UiIC8+CiAgICAgICAgPGRjOnRpdGxlIC8+CiAgICAgIDwvY2M6V29yaz4KICAgIDwvcmRmOlJERj4KICA8L21ldGFkYXRhPgogIDxnCiAgICAgaW5rc2NhcGU6bGFiZWw9IkxheWVyIDEiCiAgICAgaW5rc2NhcGU6Z3JvdXBtb2RlPSJsYXllciIKICAgICBpZD0ibGF5ZXIxIgogICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsLTY1Mi4zNjIxOCkiPgogICAgPGcKICAgICAgIGlkPSJnMzAzMiIKICAgICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIyOS4zMDQ2Myw1LjA1MDc2MjcpIj4KICAgICAgPGcKICAgICAgICAgaWQ9ImczMDMzIgogICAgICAgICB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0MzIuMzQ1MjksOS4wOTEzNzI5KSI+CiAgICAgICAgPHBhdGgKICAgICAgICAgICBzdHlsZT0iZmlsbDojMDAwMDAwO3N0cm9rZTpub25lIgogICAgICAgICAgIGQ9Ik0gLTYzNS40NzY1NywxMDI2LjExMzQgQyAtNjQzLjA3NjUzLDEwMjQuMDY2NCAtNjQ5LjU4ODMsMTAxOC4zMTE1IC02NTIuMDA1NiwxMDExLjUwNTQgQyAtNjUyLjc1MTc1LDEwMDkuNDA0NSAtNjUzLjYyMTc1LDEwMDcuNjg1NiAtNjUzLjkzODg1LDEwMDcuNjg1NiBDIC02NTQuMjU1OTUsMTAwNy42ODU2IC02NTQuNTE1NDEsOTM4LjM1NTc5IC02NTQuNTE1NDEsODUzLjYxOTI5IEMgLTY1NC41MTU0MSw3NjMuODk5MTggLTY1NC4yMzQ4NSw2OTkuNTUyOTIgLTY1My44NDM3LDY5OS41NTI5MiBDIC02NTMuNDc0MjQsNjk5LjU1MjkyIC02NTIuOTQ2MTksNjk4LjYyMDYxIC02NTIuNjcwMzEsNjk3LjQ4MTEzIEMgLTY1MS44MTY1LDY5My45NTQ2OSAtNjQ3LjIwNzI0LDY4Ny43MjY0NyAtNjQzLjYyOTc0LDY4NS4yNjUwNyBDIC02MzcuMjQyMzUsNjgwLjg3MDQ0IC02MzYuMTU0NjIsNjgwLjcxODQgLTYxMS4xMDEyNCw2ODAuNzE4NCBMIC01ODguMjE3OSw2ODAuNzE4NCBMIC01ODguMjA4OTQsNzAzLjEzMTQ4IEMgLTU4OC4xOTk2Nyw3MjYuMjg1NTQgLTU4Ny44MjU5Miw3MjkuOTIxMDQgLTU4NC44NjY1Nyw3MzUuNjQxMjIgQyAtNTgyLjkzNzE2LDczOS4zNzA1NSAtNTc3LjA5OTg5LDc0NC44NTkwMyAtNTcyLjg1Nzk4LDc0Ni45MzIzMyBDIC01NjQuNzkzODcsNzUwLjg3Mzc4IC01NDkuNjgyMjUsNzUwLjc4NjM4IC01NDEuNzM5ODksNzQ2Ljc1MjM2IEMgLTUzMy45MjAxLDc0Mi43ODA1NyAtNTI4LjQ4NDY4LDczNC45NDY5NCAtNTI3LjE1MTA1LDcyNS43MjY2MSBDIC01MjYuNzc2OTksNzIzLjE0MDMzIC01MjYuNDY0MTEsNzExLjk1NTQ1IC01MjYuNDU1ODMsNzAwLjg3MTM0IEwgLTUyNi40NDA2OCw2ODAuNzE4NCBMIC00NTkuNzk2MDksNjgwLjcxODQgTCAtMzkzLjE1MTUxLDY4MC43MTg0IEwgLTM5Mi45MzM1NCw3MDUuMDE0OTMgTCAtMzkyLjcxNTU2LDcyOS4zMTE0NiBMIC0zOTAuNzAzOSw3MzMuNjAzMSBDIC0zODguMTM3Nyw3MzkuMDc3NzUgLTM4Mi44OTM5NSw3NDQuMzIxNSAtMzc3LjQxOTMsNzQ2Ljg4NzcgQyAtMzczLjM2NjI3LDc0OC43ODc1MiAtMzcyLjQ5OTM2LDc0OC44OTkzNiAtMzYxLjgyNjk1LDc0OC44OTkzNiBDIC0zNTAuOTM4OTUsNzQ4Ljg5OTM2IC0zNTAuMzUyODksNzQ4LjgxOTMyIC0zNDUuNzc5NTgsNzQ2LjcwNzYxIEMgLTMzOS43Nzc3Miw3NDMuOTM2MjkgLTMzNC43OTcyOCw3MzguNjAzNzcgLTMzMy4yMDU5Myw3MzMuMjQ1MTIgQyAtMzMyLjI5Mzk3LDczMC4xNzQyMSAtMzMyLjA2ODQxLDcyNC41ODY2NyAtMzMyLjA2ODQxLDcwNS4wNjY1NCBMIC0zMzIuMDY4NDEsNjgwLjcxODQgTCAtMzEwLjY5MTc4LDY4MC43MTg0IEMgLTI4Ny4yODMwNyw2ODAuNzE4NCAtMjg2LjAwNjUyLDY4MC45MDU1IC0yNzkuNjcwMSw2ODUuMjY1MDcgQyAtMjc2LjA5MjU4LDY4Ny43MjY0NyAtMjcxLjQ4MzMyLDY5My45NTQ2OSAtMjcwLjYyOTQ4LDY5Ny40ODExMyBDIC0yNzAuMzUzNTgsNjk4LjYyMDYxIC0yNjkuODI1NTgsNjk5LjU1MjkyIC0yNjkuNDU2MTQsNjk5LjU1MjkyIEMgLTI2OS4wNjQ5Nyw2OTkuNTUyOTIgLTI2OC43ODQ0Myw3NjMuODk5MTggLTI2OC43ODQ0Myw4NTMuNjE5MjkgQyAtMjY4Ljc4NDQzLDkzOC4zNTU3OSAtMjY5LjA0Mzg4LDEwMDcuNjg1NiAtMjY5LjM2MDk4LDEwMDcuNjg1NiBDIC0yNjkuNjc4MDgsMTAwNy42ODU2IC0yNzAuNTQ4MDMsMTAwOS40MDQ1IC0yNzEuMjk0MjEsMTAxMS41MDU0IEMgLTI3My43NjQ4LDEwMTguNDYxNSAtMjgwLjI0NzU5LDEwMjQuMDkzNiAtMjg4LjE1NDI1LDEwMjYuMTUzMSBDIC0yOTQuNDU0MTQsMTAyNy43OTM5IC02MjkuMzc4NzEsMTAyNy43NTU3IC02MzUuNDc2NTcsMTAyNi4xMTM0IHogTSAtMjkyLjg5MjYxLDg5MC4xNTgyNSBMIC0yOTIuODkyNjEsNzc3LjE1MTE0IEwgLTQ2MS42NDk5NCw3NzcuMTUxMTQgTCAtNjMwLjQwNzIzLDc3Ny4xNTExNCBMIC02MzAuNDA3MjMsODkwLjE1ODI1IEwgLTYzMC40MDcyMywxMDAzLjE2NTMgTCAtNDYxLjY0OTk0LDEwMDMuMTY1MyBMIC0yOTIuODkyNjEsMTAwMy4xNjUzIEwgLTI5Mi44OTI2MSw4OTAuMTU4MjUgeiBNIC01OTUuMzIxMTUsOTc3LjExOTkyIEMgLTU5Ni4zMzY0MSw5NzYuMTA0NyAtNTk2LjUwNTA5LDk3My4xNjA1OSAtNTk2LjUwNTA5LDk1Ni40NTU3NiBDIC01OTYuNTA1MDksOTM5Ljc1MDkzIC01OTYuMzM2NDEsOTM2LjgwNjgxIC01OTUuMzIxMTUsOTM1Ljc5MTYgQyAtNTk0LjI5NzE2LDkzNC43Njc1NiAtNTkxLjA2MjQ0LDkzNC42MDc3MiAtNTcxLjM2MzY1LDkzNC42MDc3MiBDIC01NTQuNjU1MzIsOTM0LjYwNzcyIC01NDguMzQ5Myw5MzQuODQ4NSAtNTQ3LjY4NjAyLDkzNS41MTE3NyBDIC01NDcuMDI4MTcsOTM2LjE2OTYxIC01NDYuNzgxOTYsOTQxLjg3MzY1IC01NDYuNzgxOTYsOTU2LjQ1NTc2IEMgLTU0Ni43ODE5Niw5NzEuMDM3ODcgLTU0Ny4wMjgxNyw5NzYuNzQxOTEgLTU0Ny42ODYwMiw5NzcuMzk5NzQgQyAtNTQ4LjM0OTMsOTc4LjA2MzAyIC01NTQuNjU1MzIsOTc4LjMwMzggLTU3MS4zNjM2NSw5NzguMzAzOCBDIC01OTEuMDYyNDQsOTc4LjMwMzggLTU5NC4yOTcxNiw5NzguMTQzOTYgLTU5NS4zMjExNSw5NzcuMTE5OTIgeiBNIC01MjIuOTk2Niw5NzcuMTE5OTIgQyAtNTI0LjAxMTg2LDk3Ni4xMDQ3IC01MjQuMTgwNTQsOTczLjE2MDU5IC01MjQuMTgwNTQsOTU2LjQ1NTc2IEMgLTUyNC4xODA1NCw5MzkuNzUwOTMgLTUyNC4wMTE4Niw5MzYuODA2ODEgLTUyMi45OTY2LDkzNS43OTE2IEMgLTUyMS45NzI2MSw5MzQuNzY3NTYgLTUxOC43Mzc4OSw5MzQuNjA3NzIgLTQ5OS4wMzkwOSw5MzQuNjA3NzIgQyAtNDgyLjMzMDc3LDkzNC42MDc3MiAtNDc2LjAyNDc0LDkzNC44NDg1IC00NzUuMzYxNDcsOTM1LjUxMTc3IEMgLTQ3NC43MDM2Miw5MzYuMTY5NjEgLTQ3NC40NTc0MSw5NDEuODczNjUgLTQ3NC40NTc0MSw5NTYuNDU1NzYgQyAtNDc0LjQ1NzQxLDk3MS4wMzc4NyAtNDc0LjcwMzYyLDk3Ni43NDE5MSAtNDc1LjM2MTQ3LDk3Ny4zOTk3NCBDIC00NzYuMDI0NzQsOTc4LjA2MzAyIC00ODIuMzMwNzcsOTc4LjMwMzggLTQ5OS4wMzkwOSw5NzguMzAzOCBDIC01MTguNzM3ODksOTc4LjMwMzggLTUyMS45NzI2MSw5NzguMTQzOTYgLTUyMi45OTY2LDk3Ny4xMTk5MiB6IE0gLTQ1MC42NzIwNSw5NzcuMTE5OTIgQyAtNDUxLjY4NzA4LDk3Ni4xMDQ5IC00NTEuODU1OTksOTczLjE2NjMyIC00NTEuODU1OTksOTU2LjUxODcxIEMgLTQ1MS44NTU5OSw5MzguNjY0MzEgLTQ1MS43NDUwOSw5MzcuMDAxMDMgLTQ1MC40NzgyMSw5MzUuODU0NTUgQyAtNDQ5LjI2MDc0LDkzNC43NTI3NCAtNDQ2LjQ3NDE4LDkzNC42MDc3MiAtNDI2LjUyMDcxLDkzNC42MDc3MiBDIC00MDkuOTYzMTcsOTM0LjYwNzcyIC00MDMuNjk5ODIsOTM0Ljg0ODg0IC00MDMuMDM2ODgsOTM1LjUxMTc3IEMgLTQwMS43NDg3Niw5MzYuNzk5OSAtNDAxLjc0ODc2LDk3Ni4xMTE2MiAtNDAzLjAzNjg4LDk3Ny4zOTk3NCBDIC00MDMuNzAwMTUsOTc4LjA2MzAyIC00MTAuMDA2MjUsOTc4LjMwMzggLTQyNi43MTQ1Niw5NzguMzAzOCBDIC00NDYuNDEzMzUsOTc4LjMwMzggLTQ0OS42NDgwNiw5NzguMTQzOTYgLTQ1MC42NzIwNSw5NzcuMTE5OTIgeiBNIC0zNzguMzQ3NTEsOTc3LjExOTkyIEMgLTM4MC4xMDg2OSw5NzUuMzU4NzQgLTM4MC4xMTg2Miw5MzguNzk0ODggLTM3OC4zNTg2MSw5MzYuMjgyMTEgQyAtMzc3LjE5MDY0LDkzNC42MTQ2IC0zNzcuMDkyMTMsOTM0LjYwNzcyIC0zNTQuNDAxMSw5MzQuNjA3NzIgQyAtMzM3LjY4NDE2LDkzNC42MDc3MiAtMzMxLjM3NTYzLDkzNC44NDg0OCAtMzMwLjcxMjMzLDkzNS41MTE3NyBDIC0zMjkuNDI0Miw5MzYuNzk5OSAtMzI5LjQyNDIsOTc2LjExMTYyIC0zMzAuNzEyMzMsOTc3LjM5OTc0IEMgLTMzMS4zNzU2LDk3OC4wNjMwMiAtMzM3LjY4MTY5LDk3OC4zMDM4IC0zNTQuMzkwMDEsOTc4LjMwMzggQyAtMzc0LjA4ODgsOTc4LjMwMzggLTM3Ny4zMjM0Nyw5NzguMTQzOTYgLTM3OC4zNDc1MSw5NzcuMTE5OTIgeiBNIC01OTUuMzMyMyw5MTQuMDk4OCBDIC01OTYuMzE3MzUsOTEyLjY5MjQzIC01OTYuNTA1MDksOTA5LjQyODQ5IC01OTYuNTA1MDksODkzLjcwNzk5IEMgLTU5Ni41MDUwOSw4ODIuMjQ3MDIgLTU5Ni4yMDI3Niw4NzQuNDI2NjggLTU5NS43MjUxOSw4NzMuNTM0MzUgQyAtNTk0Ljk4MDEsODcyLjE0MjEgLTU5My45MTE2NSw4NzIuMDc3MTIgLTU3MS43Njc2OCw4NzIuMDc3MTIgQyAtNTU0Ljc0NTEyLDg3Mi4wNzcxMiAtNTQ4LjM0OTk3LDg3Mi4zMTcxOSAtNTQ3LjY4NjAyLDg3Mi45ODExNyBDIC01NDcuMDI3ODcsODczLjYzOTI5IC01NDYuNzgxOTYsODc5LjM3MDY1IC01NDYuNzgxOTYsODk0LjA0OTMzIEMgLTU0Ni43ODE5Niw5MTMuMjEzOTMgLTU0Ni44NTQxNCw5MTQuMjUyMDggLTU0OC4yMzkxNSw5MTQuOTkzMzEgQyAtNTQ5LjE0OTI0LDkxNS40ODAzNyAtNTU4LjA0Mzg3LDkxNS43NzMyIC01NzEuOTI3OTMsOTE1Ljc3MzIgQyAtNTk0LjA0NzM0LDkxNS43NzMyIC01OTQuMTY1MzksOTE1Ljc2NDc1IC01OTUuMzMyMyw5MTQuMDk4OCB6IE0gLTUyMy4wMDc3NSw5MTQuMDk4OCBDIC01MjMuOTkyOCw5MTIuNjkyNDMgLTUyNC4xODA1NCw5MDkuNDI4NDkgLTUyNC4xODA1NCw4OTMuNzA3OTkgQyAtNTI0LjE4MDU0LDg4Mi4yNDcwMiAtNTIzLjg3ODIxLDg3NC40MjY2OCAtNTIzLjQwMDY0LDg3My41MzQzNSBDIC01MjIuNjU1NTUsODcyLjE0MjEgLTUyMS41ODcxLDg3Mi4wNzcxMiAtNDk5LjQ0MzEzLDg3Mi4wNzcxMiBDIC00ODIuNDIwNTcsODcyLjA3NzEyIC00NzYuMDI1NDIsODcyLjMxNzE5IC00NzUuMzYxNDcsODcyLjk4MTE3IEMgLTQ3NC43MDMzMSw4NzMuNjM5MjkgLTQ3NC40NTc0MSw4NzkuMzcwNjUgLTQ3NC40NTc0MSw4OTQuMDQ5MzMgQyAtNDc0LjQ1NzQxLDkxMy4yMTM5MyAtNDc0LjUyOTU4LDkxNC4yNTIwOCAtNDc1LjkxNDYsOTE0Ljk5MzMxIEMgLTQ3Ni44MjQ2OCw5MTUuNDgwMzcgLTQ4NS43MTkzMiw5MTUuNzczMiAtNDk5LjYwMzM4LDkxNS43NzMyIEMgLTUyMS43MjI3OSw5MTUuNzczMiAtNTIxLjg0MDg0LDkxNS43NjQ3NSAtNTIzLjAwNzc1LDkxNC4wOTg4IHogTSAtNDUwLjY4MzIsOTE0LjA5ODggQyAtNDUxLjY2ODI1LDkxMi42OTI0MyAtNDUxLjg1NTk5LDkwOS40Mjg0OSAtNDUxLjg1NTk5LDg5My43MDc5OSBDIC00NTEuODU1OTksODgyLjI0NzAyIC00NTEuNTUzNjYsODc0LjQyNjY4IC00NTEuMDc2MDksODczLjUzNDM1IEMgLTQ1MC4zMzEsODcyLjE0MjEgLTQ0OS4yNjI1NSw4NzIuMDc3MTIgLTQyNy4xMTg1Niw4NzIuMDc3MTIgQyAtNDEwLjA5NjAzLDg3Mi4wNzcxMiAtNDAzLjcwMDg2LDg3Mi4zMTcxOSAtNDAzLjAzNjg4LDg3Mi45ODExNyBDIC00MDIuMzc4NzYsODczLjYzOTI5IC00MDIuMTMyODIsODc5LjM3MDY1IC00MDIuMTMyODIsODk0LjA0OTMzIEMgLTQwMi4xMzI4Miw5MTMuMjEzOTMgLTQwMi4yMDUwNiw5MTQuMjUyMDggLTQwMy41OTAwNiw5MTQuOTkzMzEgQyAtNDA0LjUwMDEyLDkxNS40ODAzNyAtNDEzLjM5NDc5LDkxNS43NzMyIC00MjcuMjc4ODIsOTE1Ljc3MzIgQyAtNDQ5LjM5ODIzLDkxNS43NzMyIC00NDkuNTE2MjksOTE1Ljc2NDc1IC00NTAuNjgzMiw5MTQuMDk4OCB6IE0gLTM3OC4zNTg2MSw5MTQuMDk4OCBDIC0zNzkuMzQzNjcsOTEyLjY5MjQzIC0zNzkuNTMxNCw5MDkuNDI4NDkgLTM3OS41MzE0LDg5My43MDc5OSBDIC0zNzkuNTMxNCw4ODIuMjQ3MDIgLTM3OS4yMjkwNyw4NzQuNDI2NjggLTM3OC43NTE1MSw4NzMuNTM0MzUgQyAtMzc4LjAwNjQxLDg3Mi4xNDIxIC0zNzYuOTM3OTgsODcyLjA3NzEyIC0zNTQuNzk0MDEsODcyLjA3NzEyIEMgLTMzNy43NzE0Nyw4NzIuMDc3MTIgLTMzMS4zNzYzLDg3Mi4zMTcxOSAtMzMwLjcxMjMzLDg3Mi45ODExNyBDIC0zMzAuMDU0MjEsODczLjYzOTI5IC0zMjkuODA4MjcsODc5LjM3MDY1IC0zMjkuODA4MjcsODk0LjA0OTMzIEMgLTMyOS44MDgyNyw5MTMuMjEzOTMgLTMyOS44ODA1LDkxNC4yNTIwOCAtMzMxLjI2NTUsOTE0Ljk5MzMxIEMgLTMzMi4xNzU1Nyw5MTUuNDgwMzcgLTM0MS4wNzAyMyw5MTUuNzczMiAtMzU0Ljk1NDI3LDkxNS43NzMyIEMgLTM3Ny4wNzM2Nyw5MTUuNzczMiAtMzc3LjE5MTczLDkxNS43NjQ3NSAtMzc4LjM1ODYxLDkxNC4wOTg4IHogTSAtNDUxLjA3NjA5LDg1MS4wMzE5OCBDIC00NTEuNTUzNjYsODUwLjEzOTY1IC00NTEuODU1OTksODQyLjMxOTMxIC00NTEuODU1OTksODMwLjg1ODM0IEMgLTQ1MS44NTU5OSw4MTUuMTM3ODQgLTQ1MS42NjgyNSw4MTEuODczOSAtNDUwLjY4MzIsODEwLjQ2NzUzIEMgLTQ0OS41MTYyOSw4MDguODAxNTggLTQ0OS4zOTgyMyw4MDguNzkzMTMgLTQyNy4yNzg4Miw4MDguNzkzMTMgQyAtNDEzLjM5NDc5LDgwOC43OTMxMyAtNDA0LjUwMDEyLDgwOS4wODU5NiAtNDAzLjU5MDA2LDgwOS41NzMwMiBDIC00MDIuMjA1MDYsODEwLjMxNDI1IC00MDIuMTMyODIsODExLjM1MjQgLTQwMi4xMzI4Miw4MzAuNTE3IEMgLTQwMi4xMzI4Miw4NDUuMTk1NjggLTQwMi4zNzg3Niw4NTAuOTI3MDQgLTQwMy4wMzY4OCw4NTEuNTg1MTYgQyAtNDAzLjcwMDg2LDg1Mi4yNDkxNCAtNDEwLjA5NjAzLDg1Mi40ODkyMiAtNDI3LjExODU2LDg1Mi40ODkyMiBDIC00NDkuMjYyNTUsODUyLjQ4OTIyIC00NTAuMzMxLDg1Mi40MjQyMyAtNDUxLjA3NjA5LDg1MS4wMzE5OCB6IE0gLTM3OC43NTE1MSw4NTEuMDMxOTggQyAtMzc5LjIyOTA3LDg1MC4xMzk2NSAtMzc5LjUzMTQsODQyLjMxOTMxIC0zNzkuNTMxNCw4MzAuODU4MzQgQyAtMzc5LjUzMTQsODE1LjEzNzg0IC0zNzkuMzQzNjcsODExLjg3MzkgLTM3OC4zNTg2MSw4MTAuNDY3NTMgQyAtMzc3LjE5MTczLDgwOC44MDE1OCAtMzc3LjA3MzY3LDgwOC43OTMxMyAtMzU0Ljk1NDI3LDgwOC43OTMxMyBDIC0zNDEuMDcwMjMsODA4Ljc5MzEzIC0zMzIuMTc1NTcsODA5LjA4NTk2IC0zMzEuMjY1NSw4MDkuNTczMDIgQyAtMzI5Ljg4MDUsODEwLjMxNDI1IC0zMjkuODA4MjcsODExLjM1MjQgLTMyOS44MDgyNyw4MzAuNTE3IEMgLTMyOS44MDgyNyw4NDUuMTk1NjggLTMzMC4wNTQyMSw4NTAuOTI3MDQgLTMzMC43MTIzMyw4NTEuNTg1MTYgQyAtMzMxLjM3NjMsODUyLjI0OTE0IC0zMzcuNzcxNDcsODUyLjQ4OTIyIC0zNTQuNzk0MDEsODUyLjQ4OTIyIEMgLTM3Ni45Mzc5OCw4NTIuNDg5MjIgLTM3OC4wMDY0MSw4NTIuNDI0MjMgLTM3OC43NTE1MSw4NTEuMDMxOTggeiBNIC01NjUuNjExMDYsNzM1LjMxMzMyIEMgLTU2OS4wNjE5Miw3MzMuNzU4IC01NzEuNDYwNTMsNzMxLjQ2MDk1IC01NzMuMjIzNTksNzI4LjAyMzA2IEMgLTU3NC41NjYzNCw3MjUuNDA0NjUgLTU3NC42NTcwNSw3MjMuMTk5MzUgLTU3NC42NTcwNSw2OTMuMTQ5MTkgQyAtNTc0LjY1NzA1LDY2My4wOTkwMyAtNTc0LjU2NjM0LDY2MC44OTM3MyAtNTczLjIyMzU5LDY1OC4yNzUzMSBDIC01NzEuNTQzNzgsNjU0Ljk5OTc0IC01NjkuMjQzODYsNjUyLjc2NzMzIC01NjUuNzA0NDgsNjUwLjk3Njc3IEMgLTU2My43Mjk4Nyw2NDkuOTc3ODUgLTU2MS42ODAzNyw2NDkuNzQ1ODQgLTU1Ni42MDcwMyw2NDkuOTQ2OTIgQyAtNTQ4LjI4ODcyLDY1MC4yNzY2MyAtNTQ0LjYyNTExLDY1Mi4zNjE2MiAtNTQxLjgzNTE5LDY1OC4zNTM4MiBMIC01NDAuMDE2MjMsNjYyLjI2MDU4IEwgLTU0MC4wMDg4NCw2OTMuMTg5NjEgTCAtNTQwLjAwMTU0LDcyNC4xMTg2NCBMIC01NDEuOTExMDUsNzI3Ljk1MDYzIEMgLTU0NC44NTMyMyw3MzMuODU0NzcgLTU0OC41NDUxLDczNS45NDQ5OSAtNTU2LjU3NTkxLDczNi4yNTM0MSBDIC01NjEuMjIxNTYsNzM2LjQzMTgyIC01NjMuNzAyMDcsNzM2LjE3MzczIC01NjUuNjExMDYsNzM1LjMxMzMyIHogTSAtMzY3Ljk3NDM2LDczNS43OTMyMSBDIC0zNzEuODkzMjYsNzM0Ljc4MzYgLTM3NS4yMzIyMiw3MzIuNDQ0MzQgLTM3Ny42Mzc1Miw3MjkuMDIzMjQgTCAtMzc5LjkwODA5LDcyNS43OTM3NiBMIC0zODAuMTI3ODQsNjk0LjYwMTAyIEMgLTM4MC4yODA1Nyw2NzIuOTIzNjMgLTM4MC4wODQ5NCw2NjIuNDMyODEgLTM3OS40ODY1NCw2NjAuMjEwNTQgQyAtMzc4LjM3NzI1LDY1Ni4wOTA5MyAtMzczLjQxMTQ4LDY1MS4wNDU5NSAtMzY5LjM1ODI3LDY0OS45MjA3MyBDIC0zNjEuMTM5MzIsNjQ3LjYzOTAyIC0zNTEuOTY3MTMsNjUwLjEyMjgxIC0zNDguMzQzNyw2NTUuNjExMzcgQyAtMzQ1LjA3Njc2LDY2MC41NTk5NCAtMzQ0Ljc3NjMxLDY2NC4xMzY1NiAtMzQ1LjAyMjY3LDY5NS4xNDU5MSBMIC0zNDUuMjUyNTcsNzI0LjA4MjMyIEwgLTM0Ny4xNzcyOCw3MjcuODIwMjQgQyAtMzQ5LjgyMDY0LDczMi45NTM4MyAtMzU0LjIxNjEsNzM1LjYzMDUgLTM2MC43MzI2NSw3MzYuMDc0OTUgQyAtMzYzLjQwNjMyLDczNi4yNTcyOSAtMzY2LjY2NTA4LDczNi4xMzA1MiAtMzY3Ljk3NDM2LDczNS43OTMyMSB6IgogICAgICAgICAgIGlkPSJwYXRoMzAzNSIKICAgICAgICAgICBpbmtzY2FwZTpjb25uZWN0b3ItY3VydmF0dXJlPSIwIiAvPgogICAgICA8L2c+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K");
+		background-repeat		: no-repeat;
+		background-size			: auto 20px;
+		background-position-x	: calc(100% - 10px);
+		background-position-y	: 6px;
+	}
+	
+	.form-container input.showUpper
+	{
+		text-transform		: uppercase;
+	}
+	
+	.form-container input[type=text]:focus, 
+	.form-container input[type=password]:focus, 
+	.form-container select:focus, 
+	.form-container textarea:focus
+	{
+		background-color	: #dad0c2;
+		border				: none;
+		border				: 1px solid #29427a !important;
+		outline				: none;
+	}
+	.form-container select:hover
+	{
+		outline				: none;
+	}
+	.form-container select[disabled]
+	{
+		background-color	: #a1a1a1;
+	}
+	.form-container select option
+	{ 
+		padding-top			:3px;
+		text-indent			:5px;
+		font-size			:14px;
+		font-weight			:bold;
+		color				:#2b6175;
+	}
+	
+	.form-container textarea
+	{
+		height				: 90px;
+	}
+	
+	.form-container input[type=color]
+	{
+		margin-top			:10px;
+	}	
+	
+	::-webkit-input-placeholder
+	{
+		font-family			: tahoma;
+		font-size			: 12px;
+		font-weight			: 400;
+		color				: #6e6e6e;
+	}
+	:-ms-input-placeholder
+	{
+		font-family			: tahoma;
+		font-size			: 12px;
+		font-weight			: 400;
+		color				:#6e6e6e;
+	}
+	:-moz-input-placeholder
+	{
+		font-family			: tahoma;
+		font-size			: 12px;
+		font-weight			: 400;
+		color				: #6e6e6e;
+	}
+	::-moz-input-placeholder
+	{
+		font-family			: tahoma;
+		font-size			: 12px;
+		font-weight			: 400;
+		color				: #6e6e6e;
+	}
+	
+	.form-container input[type=checkbox]
+	{
+		visibility			: hidden;
+	}
+	.form-container label.chkBoxLabel
+	{
+		position			: relative;
+		float				: left;
+		display				: inline-block;
+		width				: auto;
+		height				: 30px;
+		margin				: 0px;
+		margin-right		: 5px;
+		padding				: 0px;
+		padding-left		: 30px;				
+		padding-right		: 10px;				
+		line-height			: 30px;				
+		cursor				: pointer;				
+		font-family			: tahoma;
+		font-size			: 13px;
+		font-weight			: 600;
+		background-color	: #fdfdfd;
+		color				: #0b4080;
+	}
+	.form-container label.chkBoxLabel:before
+	{
+		content				: "";
+		position			: absolute;
+		display				: block;
+		width				: 20px;
+		height				: 20px;
+		top					: 5px;
+		left				: 5px;
+		padding				: 0px;					
+		border				: 2px solid #28494d;
+	}
+	.form-container label.chkBoxLabel:after
+	{
+		content				: "";
+		position			: absolute;
+		display				: none;
+		width				: 12px;
+		height				: 12px;
+		top					: 9px;
+		left				: 9px;
+		padding				: 0px;
+		
+		background-color	: #28494d;
+	}
+	
+	/*.form-container form input[type=checkbox]:checked + label.chkBoxLabel:before
+	{
+		padding				: 2px;
+		background-color	: #28494d;
+	}*/
+	.form-container input[type=checkbox]:checked + label.chkBoxLabel:after
+	{
+		display				: block;
+	}
+			
+	.form-container checkboxGroup,
+	.form-container chkBoxGroupLabel
+	{
+		position			: relative;
+		float				: left;
+		display				: inline-block;
+		width				: auto;
+		height				: 25px;
+		margin				: 0px;
+		margin-right		: 5px;			
+		line-height			: 25px;
+	}
+	.form-container .chkBoxGroupLabel label 
+	{
+		display				: inline-block;
+		width				: auto;
+		height				: 25px;
+		margin				: 0px;
+		padding				: 0px 10px;				
+		line-height			: 25px;				
+		cursor				: pointer;				
+		font-family			: "Oswald",sans-serif;
+		font-size			: 1.0rem;
+		font-weight			: 500;
+		background-color	: #b5988c;
+		color				: #2b201c;
+	}
+	.form-container .chkBoxGroupLabel input[type=checkbox]
+	{
+		width				: 0;
+		height				: 0;
+	}
+	
+	.form-container .chkBoxGroupLabel input[type=checkbox]:checked + label
+	{
+		background-color	: #254754;
+		color				: #fff;
+	}
+	
+	/*---------------------------------------------------------------
+	###	Custom File Upload
+	-----------------------------------------------------------------*/
+	.form-container input[type = file]
+	{
+		position			: absolute;
+		left				: -9999px;
+		top					: -9999px;
+		width				: 1px;
+		height				: 1px;
+		visibility			: hidden;
+	}
+	
+	.form-container label.fileBox
+	{
+		position			: relative;
+		float				: left;
+		display				: flex;
+		width				: 100%;
+		height				: 50px;
+		margin				: 5px 0px 0px;
+		padding				: 0px;
+		background-color	: #dfdfdf;
+		text-align			: center;		
+		font-family			: "Roboto",sans-serif;
+		font-size			: 14px;
+		cursor				: pointer;
+		transition			: 0.2s;
+	}
+	.form-container label.fileBox:hover
+	{
+		background-color	: #bbffff;
+	}
+	.form-container label.fileBox .fileBoxHeader
+	{
+		width				: 80px;
+		background-color	: #333;
+	}
+	.form-container label.fileBox .fileBoxHeader span:first-of-type
+	{
+		position			: relative;
+		display				: block;
+		float				: left;
+		width				: 100%;
+		height				: 30px;
+		text-align			: center;
+		line-height			: 30px;
+		font-size			: 28px;
+		color				: #fff;
+	}
+	.form-container label.fileBox .fileBoxHeader span:last-of-type
+	{
+		position			: relative;
+		display				: block;
+		float				: left;
+		width				: 100%;
+		height				: 20px;
+		text-align			: center;
+		line-height			: 20px;
+		font-size			: 11px;
+		color				: #fff;
+	}
+	.form-container label.fileBox .fileBoxText
+	{
+		flex				: 1;
+		box-sizing			: border-box;
+		text-align			: center;
+		line-height			: 50px;
+		font-family			: "Roboto",sans-serif;
+		font-size			: 14px;
+		font-weight			: 600;
+		cursor				: pointer;
+		border-top			: 1px dashed #777;
+		border-right		: 1px dashed #777;
+		border-bottom		: 1px dashed #777;
+		transition			: 0.2s;
+	}
+			
+	.form-container input[type=submit],
+	.form-container input[type=reset],
+	.form-container input[type=button]
+	{
+		float				: left;
+		width				: 100px;
+		height				: 36px;
+		margin				: 10px 5px;
+		font-family			: "Oswald",sans-serif;
+		font-size			: 0.9rem;
+		font-weight			: 500;
+		color				: #fff;
+		border				: 0;
+		border-radius		: 3px;
+		outline				: 0;
+		cursor				: pointer;
+		letter-spacing		: 1px;
+		transition			: 0.2s;
+		box-shadow			: 1px 1px 2px #333;
+	}
+	
+	.bttnPositive
+	{
+		background-color	: #487b22;
+	}
+	.bttnNegative
+	{
+		background-color	: #bf2828;				
+	}
+	
+	.form-container input[type=submit]:hover,
+	.form-container input[type=reset]:hover,
+	.form-container input[type=button]:hover
+	{
+		background-color	: #1d3247;
+		color				: #f9f9f9;
+		box-shadow			: 1px 2px 4px #111;
+	}

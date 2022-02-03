@@ -1,0 +1,870 @@
+@font-face {
+  font-family: 'fontify';
+  src:  url('../fonts/fy/fontify.eot?e5mwza');
+  src:  url('../fonts/fy/fontify.eot?e5mwza#iefix') format('embedded-opentype'),
+    url('../fonts/fy/fontify.ttf?e5mwza') format('truetype'),
+    url('../fonts/fy/fontify.woff?e5mwza') format('woff'),
+    url('../fonts/fy/fontify.svg?e5mwza#fontify') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.fy {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'fontify' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fy-academics:before {
+  content: "\e900";
+}
+.fy-add-calender:before {
+  content: "\e901";
+}
+.fy-add-camera:before {
+  content: "\e902";
+}
+.fy-add-date:before {
+  content: "\e903";
+}
+.fy-add-folder:before {
+  content: "\e904";
+}
+.fy-add-gallery:before {
+  content: "\e905";
+}
+.fy-add-news:before {
+  content: "\e906";
+}
+.fy-add-nurse:before {
+  content: "\e907";
+}
+.fy-add-order:before {
+  content: "\e908";
+}
+.fy-add-report:before {
+  content: "\e909";
+}
+.fy-add-salary:before {
+  content: "\e90a";
+}
+.fy-add-shipment:before {
+  content: "\e90b";
+}
+.fy-add-shopping-cart:before {
+  content: "\e90c";
+}
+.fy-add-user:before {
+  content: "\e90d";
+}
+.fy-add-video:before {
+  content: "\e90e";
+}
+.fy-add-volunteer:before {
+  content: "\e90f";
+}
+.fy-aeroplane:before {
+  content: "\e910";
+}
+.fy-afganistan:before {
+  content: "\e911";
+}
+.fy-aircon:before {
+  content: "\e912";
+}
+.fy-archery:before {
+  content: "\e913";
+}
+.fy-archived:before {
+  content: "\e914";
+}
+.fy-area:before {
+  content: "\e915";
+}
+.fy-area-chart:before {
+  content: "\e916";
+}
+.fy-arrow-down:before {
+  content: "\e917";
+}
+.fy-arrow-head-down:before {
+  content: "\e918";
+}
+.fy-arrow-head-left:before {
+  content: "\e919";
+}
+.fy-arrow-head-left-right:before {
+  content: "\e91a";
+}
+.fy-arrow-head-right:before {
+  content: "\e91b";
+}
+.fy-arrow-head-up:before {
+  content: "\e91c";
+}
+.fy-arrow-head-up-down:before {
+  content: "\e91d";
+}
+.fy-arrow-left:before {
+  content: "\e91e";
+}
+.fy-arrow-right:before {
+  content: "\e91f";
+}
+.fy-arrow-up:before {
+  content: "\e920";
+}
+.fy-association:before {
+  content: "\e921";
+}
+.fy-athletics:before {
+  content: "\e922";
+}
+.fy-badminton:before {
+  content: "\e923";
+}
+.fy-bangladesh:before {
+  content: "\e924";
+}
+.fy-bar-chart:before {
+  content: "\e925";
+}
+.fy-bar-code:before {
+  content: "\e926";
+}
+.fy-basketball:before {
+  content: "\e927";
+}
+.fy-battery:before {
+  content: "\e928";
+}
+.fy-bell:before {
+  content: "\e929";
+}
+.fy-book:before {
+  content: "\e92a";
+}
+.fy-building:before {
+  content: "\e92b";
+}
+.fy-bulb:before {
+  content: "\e92c";
+}
+.fy-bus:before {
+  content: "\e92d";
+}
+.fy-calender:before {
+  content: "\e92e";
+}
+.fy-camera:before {
+  content: "\e92f";
+}
+.fy-camp:before {
+  content: "\e930";
+}
+.fy-canteen:before {
+  content: "\e931";
+}
+.fy-car:before {
+  content: "\e932";
+}
+.fy-cctv-dome:before {
+  content: "\e933";
+}
+.fy-center-align:before {
+  content: "\e934";
+}
+.fy-certificate:before {
+  content: "\e935";
+}
+.fy-china:before {
+  content: "\e936";
+}
+.fy-chip:before {
+  content: "\e937";
+}
+.fy-classroom:before {
+  content: "\e938";
+}
+.fy-cleaning:before {
+  content: "\e939";
+}
+.fy-clock:before {
+  content: "\e93a";
+}
+.fy-close:before {
+  content: "\e93b";
+}
+.fy-code:before {
+  content: "\e93c";
+}
+.fy-construction:before {
+  content: "\e93d";
+}
+.fy-cricket:before {
+  content: "\e93e";
+}
+.fy-csv:before {
+  content: "\e93f";
+}
+.fy-curtlery:before {
+  content: "\e940";
+}
+.fy-cycling:before {
+  content: "\e941";
+}
+.fy-dashboard:before {
+  content: "\e942";
+}
+.fy-database:before {
+  content: "\e943";
+}
+.fy-database-backup:before {
+  content: "\e944";
+}
+.fy-database-restore:before {
+  content: "\e945";
+}
+.fy-database-security:before {
+  content: "\e946";
+}
+.fy-date:before {
+  content: "\e947";
+}
+.fy-delete:before {
+  content: "\e948";
+}
+.fy-desktop:before {
+  content: "\e949";
+}
+.fy-destination:before {
+  content: "\e94a";
+}
+.fy-doc:before {
+  content: "\e94b";
+}
+.fy-doctor:before {
+  content: "\e94c";
+}
+.fy-donation:before {
+  content: "\e94d";
+}
+.fy-download:before {
+  content: "\e94e";
+}
+.fy-dustbin:before {
+  content: "\e94f";
+}
+.fy-edit:before {
+  content: "\e950";
+}
+.fy-education:before {
+  content: "\e951";
+}
+.fy-electricity:before {
+  content: "\e952";
+}
+.fy-electricity-pole:before {
+  content: "\e953";
+}
+.fy-email:before {
+  content: "\e954";
+}
+.fy-eraser:before {
+  content: "\e955";
+}
+.fy-excavator:before {
+  content: "\e956";
+}
+.fy-exit:before {
+  content: "\e957";
+}
+.fy-experiment:before {
+  content: "\e958";
+}
+.fy-facebook:before {
+  content: "\e959";
+}
+.fy-factory:before {
+  content: "\e95a";
+}
+.fy-factory-large:before {
+  content: "\e95b";
+}
+.fy-faq:before {
+  content: "\e95c";
+}
+.fy-fax:before {
+  content: "\e95d";
+}
+.fy-female:before {
+  content: "\e95e";
+}
+.fy-fencing:before {
+  content: "\e95f";
+}
+.fy-filter:before {
+  content: "\e960";
+}
+.fy-fire-extinguisher:before {
+  content: "\e961";
+}
+.fy-floppy:before {
+  content: "\e962";
+}
+.fy-folder:before {
+  content: "\e963";
+}
+.fy-font:before {
+  content: "\e964";
+}
+.fy-food:before {
+  content: "\e965";
+}
+.fy-football:before {
+  content: "\e966";
+}
+.fy-gallery:before {
+  content: "\e967";
+}
+.fy-gardening:before {
+  content: "\e968";
+}
+.fy-globe:before {
+  content: "\e969";
+}
+.fy-golf:before {
+  content: "\e96a";
+}
+.fy-graph:before {
+  content: "\e96b";
+}
+.fy-hand-phone:before {
+  content: "\e96c";
+}
+.fy-happiness:before {
+  content: "\e96d";
+}
+.fy-health:before {
+  content: "\e96e";
+}
+.fy-helicopter:before {
+  content: "\e96f";
+}
+.fy-history:before {
+  content: "\e970";
+}
+.fy-hockey:before {
+  content: "\e971";
+}
+.fy-hospital:before {
+  content: "\e972";
+}
+.fy-hotel-bed:before {
+  content: "\e973";
+}
+.fy-hotspot:before {
+  content: "\e974";
+}
+.fy-house:before {
+  content: "\e975";
+}
+.fy-ice-hockey:before {
+  content: "\e976";
+}
+.fy-idea:before {
+  content: "\e977";
+}
+.fy-india:before {
+  content: "\e978";
+}
+.fy-indian-currency:before {
+  content: "\e979";
+}
+.fy-insert-link:before {
+  content: "\e97a";
+}
+.fy-instagram:before {
+  content: "\e97b";
+}
+.fy-itinerary:before {
+  content: "\e97c";
+}
+.fy-judo:before {
+  content: "\e97d";
+}
+.fy-justify-align:before {
+  content: "\e97e";
+}
+.fy-key-multi:before {
+  content: "\e97f";
+}
+.fy-key-single:before {
+  content: "\e980";
+}
+.fy-kid:before {
+  content: "\e981";
+}
+.fy-lan:before {
+  content: "\e982";
+}
+.fy-laptop:before {
+  content: "\e983";
+}
+.fy-left-align:before {
+  content: "\e984";
+}
+.fy-letter:before {
+  content: "\e985";
+}
+.fy-library:before {
+  content: "\e986";
+}
+.fy-linkedin:before {
+  content: "\e987";
+}
+.fy-list-arrow:before {
+  content: "\e988";
+}
+.fy-list-circle:before {
+  content: "\e989";
+}
+.fy-list-diamond:before {
+  content: "\e98a";
+}
+.fy-list-ordered:before {
+  content: "\e98b";
+}
+.fy-list-unordered:before {
+  content: "\e98c";
+}
+.fy-location:before {
+  content: "\e98d";
+}
+.fy-lock:before {
+  content: "\e98e";
+}
+.fy-login:before {
+  content: "\e98f";
+}
+.fy-magnify:before {
+  content: "\e990";
+}
+.fy-maintenance:before {
+  content: "\e991";
+}
+.fy-male:before {
+  content: "\e992";
+}
+.fy-map:before {
+  content: "\e993";
+}
+.fy-material:before {
+  content: "\e994";
+}
+.fy-meeting-large:before {
+  content: "\e995";
+}
+.fy-meeting-small:before {
+  content: "\e996";
+}
+.fy-mem-card:before {
+  content: "\e997";
+}
+.fy-menu-bar:before {
+  content: "\e998";
+}
+.fy-mission:before {
+  content: "\e999";
+}
+.fy-mobile:before {
+  content: "\e99a";
+}
+.fy-modify:before {
+  content: "\e99b";
+}
+.fy-moon:before {
+  content: "\e99c";
+}
+.fy-multiply:before {
+  content: "\e99d";
+}
+.fy-myanmar:before {
+  content: "\e99e";
+}
+.fy-nepal:before {
+  content: "\e99f";
+}
+.fy-news:before {
+  content: "\e9a0";
+}
+.fy-next:before {
+  content: "\e9a1";
+}
+.fy-nurse:before {
+  content: "\e9a2";
+}
+.fy-ofc:before {
+  content: "\e9a3";
+}
+.fy-office-large:before {
+  content: "\e9a4";
+}
+.fy-office-small:before {
+  content: "\e9a5";
+}
+.fy-open-box:before {
+  content: "\e9a6";
+}
+.fy-order:before {
+  content: "\e9a7";
+}
+.fy-patient:before {
+  content: "\e9a8";
+}
+.fy-pause:before {
+  content: "\e9a9";
+}
+.fy-paytm:before {
+  content: "\e9aa";
+}
+.fy-pdf:before {
+  content: "\e9ab";
+}
+.fy-pen:before {
+  content: "\e9ac";
+}
+.fy-pencil:before {
+  content: "\e9ad";
+}
+.fy-people:before {
+  content: "\e9ae";
+}
+.fy-pest-control:before {
+  content: "\e9af";
+}
+.fy-phone-receiver:before {
+  content: "\e9b0";
+}
+.fy-phone-signal:before {
+  content: "\e9b1";
+}
+.fy-pie-chart:before {
+  content: "\e9b2";
+}
+.fy-pinterest:before {
+  content: "\e9b3";
+}
+.fy-plus:before {
+  content: "\e9b4";
+}
+.fy-policy:before {
+  content: "\e9b5";
+}
+.fy-previous:before {
+  content: "\e9b6";
+}
+.fy-price-tag:before {
+  content: "\e9b7";
+}
+.fy-printer:before {
+  content: "\e9b8";
+}
+.fy-program:before {
+  content: "\e9b9";
+}
+.fy-qr-code:before {
+  content: "\e9ba";
+}
+.fy-quality:before {
+  content: "\e9bb";
+}
+.fy-rail:before {
+  content: "\e9bc";
+}
+.fy-reception:before {
+  content: "\e9bd";
+}
+.fy-recycle:before {
+  content: "\e9be";
+}
+.fy-redo:before {
+  content: "\e9bf";
+}
+.fy-refresh:before {
+  content: "\e9c0";
+}
+.fy-remove-link:before {
+  content: "\e9c1";
+}
+.fy-report:before {
+  content: "\e9c2";
+}
+.fy-residential-complex:before {
+  content: "\e9c3";
+}
+.fy-right-align:before {
+  content: "\e9c4";
+}
+.fy-road:before {
+  content: "\e9c5";
+}
+.fy-room:before {
+  content: "\e9c6";
+}
+.fy-room-service:before {
+  content: "\e9c7";
+}
+.fy-router:before {
+  content: "\e9c8";
+}
+.fy-russia:before {
+  content: "\e9c9";
+}
+.fy-safety:before {
+  content: "\e9ca";
+}
+.fy-salary:before {
+  content: "\e9cb";
+}
+.fy-school:before {
+  content: "\e9cc";
+}
+.fy-seed:before {
+  content: "\e9cd";
+}
+.fy-shield:before {
+  content: "\e9ce";
+}
+.fy-ship:before {
+  content: "\e9cf";
+}
+.fy-shipment:before {
+  content: "\e9d0";
+}
+.fy-shopping-cart:before {
+  content: "\e9d1";
+}
+.fy-shopping-mall:before {
+  content: "\e9d2";
+}
+.fy-singapore:before {
+  content: "\e9d3";
+}
+.fy-sms:before {
+  content: "\e9d4";
+}
+.fy-sofa:before {
+  content: "\e9d5";
+}
+.fy-srilanka:before {
+  content: "\e9d6";
+}
+.fy-staff:before {
+  content: "\e9d7";
+}
+.fy-staffing:before {
+  content: "\e9d8";
+}
+.fy-star:before {
+  content: "\e9d9";
+}
+.fy-stop:before {
+  content: "\e9da";
+}
+.fy-student:before {
+  content: "\e9db";
+}
+.fy-students:before {
+  content: "\e9dc";
+}
+.fy-subscript:before {
+  content: "\e9dd";
+}
+.fy-sun:before {
+  content: "\e9de";
+}
+.fy-superscript:before {
+  content: "\e9df";
+}
+.fy-system:before {
+  content: "\e9e0";
+}
+.fy-table:before {
+  content: "\e9e1";
+}
+.fy-teacher:before {
+  content: "\e9e2";
+}
+.fy-team:before {
+  content: "\e9e3";
+}
+.fy-telecaller-f:before {
+  content: "\e9e4";
+}
+.fy-telecaller-m:before {
+  content: "\e9e5";
+}
+.fy-telecom:before {
+  content: "\e9e6";
+}
+.fy-telephone:before {
+  content: "\e9e7";
+}
+.fy-time-reverse:before {
+  content: "\e9e8";
+}
+.fy-toilet:before {
+  content: "\e9e9";
+}
+.fy-touch:before {
+  content: "\e9ea";
+}
+.fy-transfer:before {
+  content: "\e9eb";
+}
+.fy-treatment:before {
+  content: "\e9ec";
+}
+.fy-trekk:before {
+  content: "\e9ed";
+}
+.fy-twitter:before {
+  content: "\e9ee";
+}
+.fy-uk:before {
+  content: "\e9ef";
+}
+.fy-undo:before {
+  content: "\e9f0";
+}
+.fy-upgrade:before {
+  content: "\e9f1";
+}
+.fy-upgrade-user:before {
+  content: "\e9f2";
+}
+.fy-upload:before {
+  content: "\e9f3";
+}
+.fy-usa:before {
+  content: "\e9f4";
+}
+.fy-user:before {
+  content: "\e9f5";
+}
+.fy-user-c:before {
+  content: "\e9f6";
+}
+.fy-video:before {
+  content: "\e9f7";
+}
+.fy-vision:before {
+  content: "\e9f8";
+}
+.fy-visitor:before {
+  content: "\e9f9";
+}
+.fy-volunteer:before {
+  content: "\e9fa";
+}
+.fy-waiter:before {
+  content: "\e9fb";
+}
+.fy-wallet:before {
+  content: "\e9fc";
+}
+.fy-washing-machine:before {
+  content: "\e9fd";
+}
+.fy-water-purifier:before {
+  content: "\e9fe";
+}
+.fy-wb-bankura:before {
+  content: "\e9ff";
+}
+.fy-wb-birbhum:before {
+  content: "\ea00";
+}
+.fy-wb-burdwan:before {
+  content: "\ea01";
+}
+.fy-wb-coochbehar:before {
+  content: "\ea02";
+}
+.fy-wb-darjeeling:before {
+  content: "\ea03";
+}
+.fy-wb-emidnapore:before {
+  content: "\ea04";
+}
+.fy-wb-hooghly:before {
+  content: "\ea05";
+}
+.fy-wb-howrah:before {
+  content: "\ea06";
+}
+.fy-wb-jalpaiguri:before {
+  content: "\ea07";
+}
+.fy-wb-kolkata:before {
+  content: "\ea08";
+}
+.fy-wb-malda:before {
+  content: "\ea09";
+}
+.fy-wb-murshidabad:before {
+  content: "\ea0a";
+}
+.fy-wb-n24pgs:before {
+  content: "\ea0b";
+}
+.fy-wb-nadia:before {
+  content: "\ea0c";
+}
+.fy-wb-ndinajpur:before {
+  content: "\ea0d";
+}
+.fy-wb-purulia:before {
+  content: "\ea0e";
+}
+.fy-wb-s24pgs:before {
+  content: "\ea0f";
+}
+.fy-wb-sdinajpur:before {
+  content: "\ea10";
+}
+.fy-wb-west-bengal:before {
+  content: "\ea11";
+}
+.fy-wb-wmidnapore:before {
+  content: "\ea12";
+}
+.fy-web:before {
+  content: "\ea13";
+}
+.fy-whatsapp:before {
+  content: "\ea14";
+}
+.fy-wifi:before {
+  content: "\ea15";
+}
+.fy-world-location:before {
+  content: "\ea16";
+}
+.fy-xls:before {
+  content: "\ea17";
+}
+.fy-youtube:before {
+  content: "\ea18";
+}
